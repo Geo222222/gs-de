@@ -9,11 +9,12 @@ Static GitHub Pages site for GEO's local furniture / estate-style home sale in D
 - Location: Decatur, Alabama
 - Timing: All-day event on Wednesday–Friday and Sunday
 - Pricing: Suggested prices are intentionally marked `OBO` / or best offer
+- Whole-house buyout: $6,500 OBO
 
 ## What is included
 
 - Futuristic responsive landing page and item catalog
-- 34 grouped item listings from 131 source photos
+- 46 grouped item listings from 165 source photos
 - Search and category filtering
 - Featured high-interest listings
 - Call and SMS links for GEO
@@ -70,7 +71,7 @@ Expected validation shape:
 
 ```json
 {
-  "listings": 34,
+  "listings": 46,
   "missing": []
 }
 ```
@@ -86,3 +87,4 @@ Expected validation shape:
 ## Notes
 
 Original HEIC and MOV files are intentionally ignored by `.gitignore`. The public site uses optimized JPG files so the catalog loads faster and works in normal browsers.
+
