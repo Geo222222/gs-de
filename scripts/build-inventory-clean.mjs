@@ -46,7 +46,7 @@ const rows = items.map((item, index) => [
   item.title,
   item.category,
   item.room,
-  1,
+  item.quantity || 1,
   item.price,
   priceNumber(item.price),
   null,
@@ -105,3 +105,4 @@ const csvRows = [headers, ...rows.map((row, index) => {
 const csv = csvRows.map(row => row.map(csvEscape).join(",")).join("\r\n");
 await fs.writeFile("outputs/geo-sale-inventory/GEO_Home_Sale_Inventory_clean.csv", csv, "utf8");
 console.log(JSON.stringify({ xlsx: "outputs/geo-sale-inventory/GEO_Home_Sale_Inventory_clean.xlsx", csv: "outputs/geo-sale-inventory/GEO_Home_Sale_Inventory_clean.csv", rows: items.length }));
+

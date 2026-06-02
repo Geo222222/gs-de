@@ -1198,6 +1198,29 @@ const items = [
     ]
   },
   {
+    "id": "angel-figurine",
+    "title": "Angel Figurine",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$25 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0677.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0677.jpg",
+        "thumb": "assets/thumbs/img_0677.jpg",
+        "original": "IMG_0677"
+      }
+    ],
+    "description": "Light-toned angel figurine with floral detail. Decorative tabletop piece for a mantel, shelf, or memorial display.",
+    "notes": [
+      "One angel figurine shown",
+      "Delicate decorative piece",
+      "Bundle offers welcome"
+    ]
+  },
+  {
     "id": "plant-stand-artificial-tree",
     "title": "Artificial Tree with Plant Stand",
     "category": "Decor",
@@ -1245,6 +1268,16 @@ const items = [
         "image": "assets/items/img_0649.jpg",
         "thumb": "assets/thumbs/img_0649.jpg",
         "original": "IMG_0649"
+      },
+      {
+        "image": "assets/items/img_0687.jpg",
+        "thumb": "assets/thumbs/img_0687.jpg",
+        "original": "IMG_0687"
+      },
+      {
+        "image": "assets/items/img_0688.jpg",
+        "thumb": "assets/thumbs/img_0688.jpg",
+        "original": "IMG_0688"
       }
     ],
     "description": "Tall artificial greenery/tree with planter and stand shown. Adds height and greenery without maintenance.",
@@ -1252,14 +1285,200 @@ const items = [
       "Artificial greenery",
       "Planter/stand shown",
       "Indoor decorative use"
+    ],
+    "quantity": 1
+  },
+  {
+    "id": "black-angel-statue",
+    "title": "Black Angel Statue",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$35 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0681.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0681.jpg",
+        "thumb": "assets/thumbs/img_0681.jpg",
+        "original": "IMG_0681"
+      },
+      {
+        "image": "assets/items/img_0682.jpg",
+        "thumb": "assets/thumbs/img_0682.jpg",
+        "original": "IMG_0682"
+      }
+    ],
+    "description": "Dark angel statue with sculptural robe and wing detail. Strong decorative shelf or table piece.",
+    "notes": [
+      "One black angel statue shown",
+      "Multiple detail photos included",
+      "Pairs well with other figurines"
+    ]
+  },
+  {
+    "id": "family-figurine",
+    "title": "Family Figurine",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$30 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0678.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0678.jpg",
+        "thumb": "assets/thumbs/img_0678.jpg",
+        "original": "IMG_0678"
+      }
+    ],
+    "description": "Family-themed figurine with seated adult and child figures. Warm sentimental tabletop decor piece.",
+    "notes": [
+      "One family figurine shown",
+      "Good shelf or table display piece",
+      "Bundle with other figurines available"
+    ]
+  },
+  {
+    "id": "folding-room-divider-screen",
+    "title": "Folding Room Divider Screen",
+    "category": "Decor",
+    "room": "Living Room",
+    "price": "$85 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0626.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0626.jpg",
+        "thumb": "assets/thumbs/img_0626.jpg",
+        "original": "IMG_0626"
+      }
+    ],
+    "description": "Black-and-white folding room divider screen. Useful as a privacy screen, decorative backdrop, or room separation piece.",
+    "notes": [
+      "Folding panel screen",
+      "Good staging/decor piece",
+      "Easy standalone pickup item"
+    ]
+  },
+  {
+    "id": "gold-pineapple-decor-pieces",
+    "title": "Gold Pineapple Decor Pieces",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$15 each / $45 group OBO",
+    "quantity": 3,
+    "featured": false,
+    "hero": "assets/items/img_0685.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0578.jpg",
+        "thumb": "assets/thumbs/img_0578.jpg",
+        "original": "IMG_0578"
+      },
+      {
+        "image": "assets/items/img_0580.jpg",
+        "thumb": "assets/thumbs/img_0580.jpg",
+        "original": "IMG_0580"
+      },
+      {
+        "image": "assets/items/img_0685.jpg",
+        "thumb": "assets/thumbs/img_0685.jpg",
+        "original": "IMG_0685"
+      },
+      {
+        "image": "assets/items/img_0686.jpg",
+        "thumb": "assets/thumbs/img_0686.jpg",
+        "original": "IMG_0686"
+      }
+    ],
+    "description": "Gold-tone pineapple decor pieces with textured metallic finish. Strong accent pieces for table, shelf, entry, or tropical glam decor.",
+    "notes": [
+      "Quantity inferred from photos: 3 pieces",
+      "Buyer can confirm exact group in person",
+      "Bundle-friendly decor item"
+    ]
+  },
+  {
+    "id": "decorative-wreath",
+    "title": "Gold-Tone Decorative Wreath",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$35 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0653.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0653.jpg",
+        "thumb": "assets/thumbs/img_0653.jpg",
+        "original": "IMG_0653"
+      }
+    ],
+    "description": "Gold-tone decorative wreath with layered leaf texture. Good wall, door, or seasonal decor accent.",
+    "notes": [
+      "Decorative wreath",
+      "Neutral metallic finish",
+      "Easy pickup item"
+    ],
+    "quantity": 1
+  },
+  {
+    "id": "golden-elephant-figurines",
+    "title": "Golden Elephant Figurines",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$15 each / $45 set OBO",
+    "quantity": 3,
+    "featured": false,
+    "hero": "assets/items/img_0683.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0683.jpg",
+        "thumb": "assets/thumbs/img_0683.jpg",
+        "original": "IMG_0683"
+      },
+      {
+        "image": "assets/items/img_0684.jpg",
+        "thumb": "assets/thumbs/img_0684.jpg",
+        "original": "IMG_0684"
+      }
+    ],
+    "description": "Set of three gold-tone elephant figurines. Good luck-style decor set for shelf, table, entry console, or resale bundle.",
+    "notes": [
+      "Quantity: 3 golden elephants",
+      "Sold preferably as a set",
+      "Close-up photo included"
+    ]
+  },
+  {
+    "id": "metal-hourglass-decor",
+    "title": "Metal Hourglass Decor",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$25 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0675.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0675.jpg",
+        "thumb": "assets/thumbs/img_0675.jpg",
+        "original": "IMG_0675"
+      }
+    ],
+    "description": "Metal-frame hourglass decor piece. Good bookshelf, office, console, or tabletop accent.",
+    "notes": [
+      "One hourglass shown",
+      "Decorative tabletop scale",
+      "Easy add-on purchase"
     ]
   },
   {
     "id": "decorative-figurines-lot",
-    "title": "Decorative Figurines, Lamps & Tabletop Decor Lot",
+    "title": "Mixed Decorative Small Items Lot",
     "category": "Decor",
     "room": "Living Room",
-    "price": "$10–$80 OBO",
+    "price": "$10–$60 OBO",
     "featured": false,
     "hero": "assets/items/img_0579.jpg",
     "photos": [
@@ -1277,31 +1496,6 @@ const items = [
         "image": "assets/items/img_0573.jpg",
         "thumb": "assets/thumbs/img_0573.jpg",
         "original": "IMG_0573"
-      },
-      {
-        "image": "assets/items/img_0578.jpg",
-        "thumb": "assets/thumbs/img_0578.jpg",
-        "original": "IMG_0578"
-      },
-      {
-        "image": "assets/items/img_0579.jpg",
-        "thumb": "assets/thumbs/img_0579.jpg",
-        "original": "IMG_0579"
-      },
-      {
-        "image": "assets/items/img_0580.jpg",
-        "thumb": "assets/thumbs/img_0580.jpg",
-        "original": "IMG_0580"
-      },
-      {
-        "image": "assets/items/img_0581.jpg",
-        "thumb": "assets/thumbs/img_0581.jpg",
-        "original": "IMG_0581"
-      },
-      {
-        "image": "assets/items/img_0582.jpg",
-        "thumb": "assets/thumbs/img_0582.jpg",
-        "original": "IMG_0582"
       },
       {
         "image": "assets/items/img_0592.jpg",
@@ -1344,54 +1538,85 @@ const items = [
         "original": "IMG_0664"
       }
     ],
-    "description": "Mixed tabletop decor including figurines, lamps, gold pineapple pieces, rooster/chicken decor, small clock, and assorted accents.",
+    "description": "Remaining mixed tabletop decor and smaller decorative accents not broken out as individual listings. Good for bundle buyers and decor resellers.",
     "notes": [
-      "Individual or bundle offers welcome",
-      "Good browse-in-person section",
-      "Exact contents should be verified at sale"
-    ]
+      "Individual offers welcome",
+      "Bundle with figurines, lamps, or wall decor",
+      "Exact contents can be confirmed in person"
+    ],
+    "quantity": 1
   },
   {
-    "id": "folding-room-divider-screen",
-    "title": "Folding Room Divider Screen",
+    "id": "seated-woman-figurine",
+    "title": "Seated Woman Figurine",
     "category": "Decor",
-    "room": "Living Room",
-    "price": "$85 OBO",
+    "room": "Living Area",
+    "price": "$30 OBO",
+    "quantity": 1,
     "featured": false,
-    "hero": "assets/items/img_0626.jpg",
+    "hero": "assets/items/img_0679.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0626.jpg",
-        "thumb": "assets/thumbs/img_0626.jpg",
-        "original": "IMG_0626"
+        "image": "assets/items/img_0679.jpg",
+        "thumb": "assets/thumbs/img_0679.jpg",
+        "original": "IMG_0679"
+      },
+      {
+        "image": "assets/items/img_0680.jpg",
+        "thumb": "assets/thumbs/img_0680.jpg",
+        "original": "IMG_0680"
       }
     ],
-    "description": "Black-and-white folding room divider screen. Useful as a privacy screen, decorative backdrop, or room separation piece.",
+    "description": "Decorative seated woman figurine photographed from multiple angles. Elegant accent for tabletop, shelf, or display cabinet.",
     "notes": [
-      "Folding panel screen",
-      "Good staging/decor piece",
-      "Easy standalone pickup item"
+      "One figurine shown from two angles",
+      "Detailed sculptural decor",
+      "Inspect condition in person"
     ]
   },
   {
-    "id": "decorative-wreath",
-    "title": "Gold-Tone Decorative Wreath",
+    "id": "teddy-bear-chair-decor",
+    "title": "Teddy Bear Chair Decor Set",
     "category": "Decor",
     "room": "Living Area",
     "price": "$35 OBO",
+    "quantity": 1,
     "featured": false,
-    "hero": "assets/items/img_0653.jpg",
+    "hero": "assets/items/img_0674.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0653.jpg",
-        "thumb": "assets/thumbs/img_0653.jpg",
-        "original": "IMG_0653"
+        "image": "assets/items/img_0674.jpg",
+        "thumb": "assets/thumbs/img_0674.jpg",
+        "original": "IMG_0674"
       }
     ],
-    "description": "Gold-tone decorative wreath with layered leaf texture. Good wall, door, or seasonal decor accent.",
+    "description": "Small decorative chair display with teddy bears and soft accent pieces. Cute tabletop or children’s room decor bundle.",
     "notes": [
-      "Decorative wreath",
-      "Neutral metallic finish",
+      "Sold as photographed",
+      "Small decor bundle",
+      "Good add-on with kids/decor items"
+    ]
+  },
+  {
+    "id": "vintage-style-globe",
+    "title": "Vintage-Style Decorative Globe",
+    "category": "Decor",
+    "room": "Living Area",
+    "price": "$35 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0676.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0676.jpg",
+        "thumb": "assets/thumbs/img_0676.jpg",
+        "original": "IMG_0676"
+      }
+    ],
+    "description": "Decorative globe with vintage-style map finish and pedestal base. Strong desk, bookshelf, office, or study accent.",
+    "notes": [
+      "One globe shown",
+      "Good office/study decor",
       "Easy pickup item"
     ]
   },
@@ -1430,7 +1655,8 @@ const items = [
       "Function should be confirmed at sale",
       "Individual offers welcome",
       "Good add-on bundle"
-    ]
+    ],
+    "quantity": 3
   },
   {
     "id": "brother-1034dx-serger",

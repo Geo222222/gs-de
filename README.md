@@ -18,7 +18,7 @@ The site positions the offer as a curated estate drop for decorators, families, 
 ## What is included
 
 - Responsive landing page and inventory experience
-- 48 grouped item listings from 174 source photos
+- 57 grouped item listings from 189 source photos
 - Search and category filtering
 - Featured high-interest listings
 - Call and SMS links for GEO
@@ -75,7 +75,7 @@ Expected validation shape:
 
 ```json
 {
-  "listings": 48,
+  "listings": 57,
   "missing": []
 }
 ```
@@ -87,4 +87,5 @@ Expected validation shape:
 3. Set source to `Deploy from a branch`.
 4. Select branch `main` and folder `/root`.
 5. Save and wait for GitHub to publish.
+
 
