@@ -26,6 +26,7 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Thumbnails in `assets/thumbs/`
 - Contact sheets in `assets/contact/`
 - Clean inventory XLSX and CSV in `outputs/geo-sale-inventory/`
+- Separate road-sign print files in `signs.html` and `outputs/geo-sale-inventory/GEO_Road_Signs_12_Faces.pdf`
 
 ## Local preview
 
