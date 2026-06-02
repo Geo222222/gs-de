@@ -10,51 +10,59 @@ const priceNumber = (price) => {
   const match = String(price).match(/\$([0-9,]+)/);
   return match ? Number(match[1].replace(/,/g, "")) : 0;
 };
+const csvEscape = (value) => {
+  const text = value == null ? "" : String(value);
+  return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+};
 const total = items.reduce((sum, item) => sum + priceNumber(item.price), 0);
 const buyout = 6500;
 const workbook = Workbook.create();
-const summary = workbook.worksheets.add("Summary");
 const inventory = workbook.worksheets.add("Inventory");
 const categories = workbook.worksheets.add("Category Summary");
+const summary = workbook.worksheets.add("Summary");
 
-summary.getRange("A1").values = [["GEO Home Sale Inventory"]];
-summary.getRange("A3:B9").values = [
-  ["Contact", "GEO"],
-  ["Phone", "205-418-8019"],
-  ["Location", "Decatur, Alabama"],
-  ["Sale Timing", "All-day event; call or message for info"],
-  ["Listings", items.length],
-  ["Base Asking Total", total],
-  ["Whole-House Buyout", buyout],
+const headers = [
+  "Item #",
+  "Item Name",
+  "Category",
+  "Room / Area",
+  "Quantity",
+  "Suggested Price",
+  "Price Number",
+  "Extended Ask",
+  "Status",
+  "OBO?",
+  "Featured?",
+  "Photo Count",
+  "Main Photo",
+  "Description",
+  "Notes",
+  "Buyer / Sold To",
+  "Final Sold Price",
+  "Pickup Status"
 ];
-summary.getRange("D3:F7").values = [
-  ["Pricing Position", "Use OBO to create urgency and leave room to negotiate", null],
-  ["Recommended Buyout", "$6,500 OBO", "Approximates itemized ask while creating a remove-it-all convenience deal"],
-  ["Buyer Pitch", "Come pick everything up and leave with resale-ready thrift-store starter inventory", null],
-  ["Quantity Note", "Quantities are placeholders for GEO to update", null],
-  ["Pickup Note", "Buyer handles loading, hauling, and transport", null],
-];
-
-const headers = ["Item ID","Title","Category","Room","Suggested Price","Price Number","Quantity","Extended Ask","Status","Featured","Photo Count","Hero Image","Description","Notes"];
 const rows = items.map((item, index) => [
-  item.id,
+  index + 1,
   item.title,
   item.category,
   item.room,
+  1,
   item.price,
   priceNumber(item.price),
-  1,
   null,
   "Available",
+  "Yes",
   item.featured ? "Yes" : "No",
   item.photos.length,
   item.hero,
   item.description,
   item.notes.join(" | "),
+  "",
+  "",
+  ""
 ]);
-inventory.getRange(`A1:N${rows.length + 1}`).values = [headers, ...rows];
-const formulaRows = items.map((item, index) => [`=F${index + 2}*G${index + 2}`]);
-inventory.getRange(`H2:H${rows.length + 1}`).formulas = formulaRows;
+inventory.getRange(`A1:R${rows.length + 1}`).values = [headers, ...rows];
+inventory.getRange(`H2:H${rows.length + 1}`).formulas = rows.map((_, index) => [`=E${index + 2}*G${index + 2}`]);
 
 const categoryMap = new Map();
 for (const item of items) {
@@ -64,13 +72,36 @@ for (const item of items) {
   categoryMap.set(item.category, entry);
 }
 const categoryRows = [...categoryMap.entries()].sort((a,b)=>b[1].ask-a[1].ask).map(([category, entry]) => [category, entry.count, entry.ask]);
-categories.getRange(`A1:C${categoryRows.length + 1}`).values = [["Category","Listings","Asking Total"], ...categoryRows];
+categories.getRange(`A1:C${categoryRows.length + 1}`).values = [["Category","Listings","Base Asking Total"], ...categoryRows];
+
+summary.getRange("A1:B9").values = [
+  ["GEO Home Sale Inventory", ""],
+  ["Contact", "GEO"],
+  ["Phone", "205-418-8019"],
+  ["Location", "Decatur, Alabama"],
+  ["Sale Timing", "All-day event; call or message for info"],
+  ["Listings", items.length],
+  ["Base Asking Total", total],
+  ["Whole-House Buyout", buyout],
+  ["Quantity Note", "Update quantities directly on the Inventory sheet"],
+];
+summary.getRange("D1:E5").values = [
+  ["Pricing Position", "All listed prices are OBO"],
+  ["Recommended Buyout", "$6,500 OBO"],
+  ["Buyer Pitch", "Pick everything up and start with resale-ready inventory"],
+  ["Pickup Note", "Buyer handles loading, hauling, and transport"],
+  ["Working Sheet", "Use the Inventory tab first"],
+];
 
 await fs.mkdir("outputs/geo-sale-inventory", { recursive: true });
 const output = await SpreadsheetFile.exportXlsx(workbook);
 await output.save("outputs/geo-sale-inventory/GEO_Home_Sale_Inventory.xlsx");
-console.log(JSON.stringify({ output: "outputs/geo-sale-inventory/GEO_Home_Sale_Inventory.xlsx", items: items.length, total, buyout }));
 
-
-
-
+const csvRows = [headers, ...rows.map((row, index) => {
+  const copy = [...row];
+  copy[7] = row[4] * row[6];
+  return copy;
+})];
+const csv = csvRows.map(row => row.map(csvEscape).join(",")).join("\r\n");
+await fs.writeFile("outputs/geo-sale-inventory/GEO_Home_Sale_Inventory.csv", csv, "utf8");
+console.log(JSON.stringify({ xlsx: "outputs/geo-sale-inventory/GEO_Home_Sale_Inventory.xlsx", csv: "outputs/geo-sale-inventory/GEO_Home_Sale_Inventory.csv", rows: items.length }));
