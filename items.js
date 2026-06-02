@@ -461,16 +461,11 @@ window.SALE_ITEMS = [
         "image": "assets/items/img_0619.jpg",
         "thumb": "assets/thumbs/img_0619.jpg",
         "original": "IMG_0619"
-      },
-      {
-        "image": "assets/items/img_0640.jpg",
-        "thumb": "assets/thumbs/img_0640.jpg",
-        "original": "IMG_0640"
       }
     ],
     "description": "Pair of black metal scroll-back chairs with patterned upholstered seats. Good for a bar-height counter, breakfast area, or accent seating.",
     "notes": [
-      "Pair shown in added photos",
+      "Quantity: 2 matching scroll chairs shown",
       "Decorative metal frames",
       "Seat condition shown in close-ups"
     ]
@@ -579,6 +574,29 @@ window.SALE_ITEMS = [
       "Rocking chair shown from multiple angles",
       "Light patterned upholstery",
       "Buyer should inspect fabric and rocker condition in person"
+    ]
+  },
+  {
+    "id": "wood-seat-metal-chair",
+    "title": "Wood-Seat Metal Accent Chair",
+    "category": "Chairs",
+    "room": "Dining / Entry",
+    "price": "$45 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0640.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0640.jpg",
+        "thumb": "assets/thumbs/img_0640.jpg",
+        "original": "IMG_0640"
+      }
+    ],
+    "description": "Single metal accent chair with shaped wood seat. Useful as extra seating, plant-stand seating, or a small entry/dining accent.",
+    "notes": [
+      "Single chair shown",
+      "Different from the matching scroll chair pair",
+      "Good quick pickup item"
     ]
   },
   {
@@ -1766,13 +1784,106 @@ window.SALE_ITEMS = [
     ]
   },
   {
-    "id": "garage-tools-ladders-lot",
-    "title": "Werner Ladder + Garage Utility Items",
+    "id": "extra-ladders-step-ladders",
+    "title": "Additional Ladders / Step Ladders",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$140 OBO for large ladder; smaller tools/ladders negotiable",
+    "price": "$60 OBO for group",
+    "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0585.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0585.jpg",
+        "thumb": "assets/thumbs/img_0585.jpg",
+        "original": "IMG_0585"
+      }
+    ],
+    "description": "Additional household ladders/step ladders visible in the garage grouping. Useful for utility, storage, and home projects.",
+    "notes": [
+      "Group pricing; individual offers considered",
+      "Exact ladder count should be confirmed in person",
+      "Bundle with Werner ladder available"
+    ]
+  },
+  {
+    "id": "big-red-mechanic-utility-item",
+    "title": "Big Red Mechanic / Utility Item",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$40 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0587.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0587.jpg",
+        "thumb": "assets/thumbs/img_0587.jpg",
+        "original": "IMG_0587"
+      }
+    ],
+    "description": "Big Red branded garage utility item. Likely useful for mechanic, workshop, or garage tasks depending on buyer needs.",
+    "notes": [
+      "Big Red branding visible",
+      "Function/type should be confirmed in person",
+      "Priced conservatively for quick pickup"
+    ]
+  },
+  {
+    "id": "cleaning-tools-broom-lot",
+    "title": "Cleaning Tools / Broom Lot",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$20 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0591.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0591.jpg",
+        "thumb": "assets/thumbs/img_0591.jpg",
+        "original": "IMG_0591"
+      }
+    ],
+    "description": "Small cleaning-tool lot including broom/handle tools visible in garage photos. Practical add-on for a bundle buyer.",
+    "notes": [
+      "Low-cost utility lot",
+      "Bundle with garage items",
+      "Exact contents confirmed in person"
+    ]
+  },
+  {
+    "id": "garage-hoses-tubing-lot",
+    "title": "Garage Hoses / Tubing Lot",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$35 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0586.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0586.jpg",
+        "thumb": "assets/thumbs/img_0586.jpg",
+        "original": "IMG_0586"
+      }
+    ],
+    "description": "Group of hoses/tubing and utility garage pieces. Best as a practical bundle for someone already picking up tools or outdoor items.",
+    "notes": [
+      "Sold as a lot",
+      "Inspect exact pieces in person",
+      "Good bundle add-on"
+    ]
+  },
+  {
+    "id": "garage-household-overflow-lot",
+    "title": "Garage Household Overflow Lot",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$25 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0584.jpg",
     "photos": [
       {
         "image": "assets/items/img_0583.jpg",
@@ -1785,46 +1896,62 @@ window.SALE_ITEMS = [
         "original": "IMG_0584"
       },
       {
-        "image": "assets/items/img_0585.jpg",
-        "thumb": "assets/thumbs/img_0585.jpg",
-        "original": "IMG_0585"
-      },
-      {
-        "image": "assets/items/img_0586.jpg",
-        "thumb": "assets/thumbs/img_0586.jpg",
-        "original": "IMG_0586"
-      },
-      {
-        "image": "assets/items/img_0587.jpg",
-        "thumb": "assets/thumbs/img_0587.jpg",
-        "original": "IMG_0587"
-      },
-      {
         "image": "assets/items/img_0588.jpg",
         "thumb": "assets/thumbs/img_0588.jpg",
         "original": "IMG_0588"
-      },
+      }
+    ],
+    "description": "Remaining mixed garage/household overflow items not otherwise broken out. Includes small household utility pieces and miscellaneous items visible in the photos.",
+    "notes": [
+      "Use as a bundle/overflow listing",
+      "Individual contents should be confirmed in person",
+      "Good add-on for buyer taking multiple items"
+    ]
+  },
+  {
+    "id": "multi-drawer-parts-organizer",
+    "title": "Multi-Drawer Parts Organizer / Storage Cabinet",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$45 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0589.jpg",
+    "photos": [
       {
         "image": "assets/items/img_0589.jpg",
         "thumb": "assets/thumbs/img_0589.jpg",
         "original": "IMG_0589"
-      },
+      }
+    ],
+    "description": "Multi-drawer organizer cabinet for small parts, hardware, craft supplies, tools, fasteners, or garage organization.",
+    "notes": [
+      "Many small drawers visible",
+      "Useful for garage, craft room, or workshop",
+      "Contents not guaranteed unless confirmed"
+    ]
+  },
+  {
+    "id": "werner-extension-ladder",
+    "title": "Werner Extension Ladder",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$140 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0590.jpg",
+    "photos": [
       {
         "image": "assets/items/img_0590.jpg",
         "thumb": "assets/thumbs/img_0590.jpg",
         "original": "IMG_0590"
-      },
-      {
-        "image": "assets/items/img_0591.jpg",
-        "thumb": "assets/thumbs/img_0591.jpg",
-        "original": "IMG_0591"
       }
     ],
-    "description": "Garage and utility items including a Werner ladder, additional ladders, storage drawers, yard/cleaning tools, hoses/tubing, and household utility pieces. The large ladder is priced below typical new big-box ladder pricing to move locally.",
+    "description": "Werner extension ladder priced to compete with new big-box ladder pricing while still moving quickly for local pickup.",
     "notes": [
-      "Large Werner ladder target: $140 OBO",
-      "Smaller ladders/tools can be bundled or sold individually",
-      "Competing against new Home Depot-style pricing while staying attractive for pickup"
+      "Large Werner ladder visible",
+      "Priced below typical new retail ladder cost",
+      "Buyer should confirm size/rating in person"
     ]
   },
   {
@@ -1866,7 +1993,7 @@ window.SALE_ITEMS = [
     "notes": [
       "Outdoor/patio items",
       "Several planters shown",
-      "Best inspected outside at sale"
+      "Green spreader/cart shown separately in photos"
     ]
   },
   {

@@ -18,14 +18,13 @@ The site positions the offer as a curated estate drop for decorators, families, 
 ## What is included
 
 - Responsive landing page and inventory experience
-- 57 grouped item listings from 189 source photos
+- 64 grouped item listings from 189 source photos
 - Search and category filtering
 - Featured high-interest listings
 - Call and SMS links for GEO
 - Optimized web images in `assets/items/`
 - Thumbnails in `assets/thumbs/`
 - Contact sheets in `assets/contact/`
-- Printable street signs in `signs.html`
 - Clean inventory XLSX and CSV in `outputs/geo-sale-inventory/`
 
 ## Local preview
@@ -40,11 +39,6 @@ Open:
 http://127.0.0.1:4173/index.html
 ```
 
-Printable signs:
-
-```text
-http://127.0.0.1:4173/signs.html
-```
 
 ## Rebuild assets after adding photos
 
