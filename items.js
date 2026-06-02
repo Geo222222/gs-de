@@ -1,11 +1,11 @@
 window.SALE_ITEMS = [
   {
-    "id": "bedroom-set-ornate-queen",
-    "title": "Ornate Queen Bedroom Set",
-    "category": "Bedroom Furniture",
+    "id": "ornate-queen-bedroom-suite",
+    "title": "Ornate Queen Bedroom Suite",
+    "category": "Bedroom",
     "room": "Primary Bedroom",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$650 OBO",
+    "featured": true,
     "hero": "assets/items/img_0491.jpg",
     "photos": [
       {
@@ -49,11 +49,48 @@ window.SALE_ITEMS = [
         "original": "IMG_0497"
       }
     ],
-    "description": "Large coordinated bedroom set with carved wood details, paneled headboard, matching footboard/rails, dresser, and nightstand pieces. Traditional statement style with substantial presence.",
+    "description": "Large coordinated bedroom suite with carved wood styling, upholstered/nailhead headboard detail, matching dresser and bedside storage. Best for a buyer furnishing a full room at once.",
     "notes": [
-      "Includes multiple matching pieces shown in photos",
-      "Ornate carved wood and upholstered/nailhead details",
-      "Best for buyer pickup with adequate vehicle/help"
+      "Suggested price is for the grouped suite; individual offers considered",
+      "Buyer pickup required; bring truck and loading help",
+      "Condition and exact pieces should be confirmed in person"
+    ]
+  },
+  {
+    "id": "gray-sectional-ottoman",
+    "title": "Gray Sectional Sofa with Ottoman",
+    "category": "Living Room",
+    "room": "Living Room",
+    "price": "$350 OBO",
+    "featured": true,
+    "hero": "assets/items/img_0528.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0526.jpg",
+        "thumb": "assets/thumbs/img_0526.jpg",
+        "original": "IMG_0526"
+      },
+      {
+        "image": "assets/items/img_0527.jpg",
+        "thumb": "assets/thumbs/img_0527.jpg",
+        "original": "IMG_0527"
+      },
+      {
+        "image": "assets/items/img_0528.jpg",
+        "thumb": "assets/thumbs/img_0528.jpg",
+        "original": "IMG_0528"
+      },
+      {
+        "image": "assets/items/img_0529.jpg",
+        "thumb": "assets/thumbs/img_0529.jpg",
+        "original": "IMG_0529"
+      }
+    ],
+    "description": "Gray sectional sofa with chaise-style section and matching ottoman. Casual, practical seating for a living room, den, or media room.",
+    "notes": [
+      "Sectional plus ottoman shown",
+      "Good value piece for quick local pickup",
+      "Inspect fabric wear in person"
     ]
   },
   {
@@ -61,8 +98,8 @@ window.SALE_ITEMS = [
     "title": "Carved Upholstered Chaise Lounge",
     "category": "Living Room",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$225 OBO",
+    "featured": true,
     "hero": "assets/items/img_0499.jpg",
     "photos": [
       {
@@ -76,168 +113,20 @@ window.SALE_ITEMS = [
         "original": "IMG_0499"
       }
     ],
-    "description": "Decorative chaise lounge with carved wood frame, rolled end, and patterned upholstery. A strong accent piece for a bedroom, sitting room, or entry area.",
+    "description": "Decorative chaise lounge with carved wood frame, rolled end, and patterned upholstery. Strong statement piece for a sitting room, bedroom, or entry space.",
     "notes": [
       "Traditional carved frame",
       "Patterned fabric upholstery",
-      "Buyer should inspect fabric condition in person"
-    ]
-  },
-  {
-    "id": "metal-scroll-dining-chair",
-    "title": "Metal Scroll Accent / Dining Chair",
-    "category": "Chairs",
-    "room": "Dining Area",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0506.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0500.jpg",
-        "thumb": "assets/thumbs/img_0500.jpg",
-        "original": "IMG_0500"
-      },
-      {
-        "image": "assets/items/img_0506.jpg",
-        "thumb": "assets/thumbs/img_0506.jpg",
-        "original": "IMG_0506"
-      },
-      {
-        "image": "assets/items/img_0507.jpg",
-        "thumb": "assets/thumbs/img_0507.jpg",
-        "original": "IMG_0507"
-      },
-      {
-        "image": "assets/items/img_0508.jpg",
-        "thumb": "assets/thumbs/img_0508.jpg",
-        "original": "IMG_0508"
-      }
-    ],
-    "description": "Black metal chair with scrollwork back and upholstered patterned seat. Useful as an accent chair, desk chair, or dining chair.",
-    "notes": [
-      "Decorative black metal frame",
-      "Light patterned cushion",
-      "Single chair shown"
-    ]
-  },
-  {
-    "id": "gvm-led-video-light-kit",
-    "title": "GVM LED Video Light Kit",
-    "category": "Electronics",
-    "room": "Equipment",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0501.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0501.jpg",
-        "thumb": "assets/thumbs/img_0501.jpg",
-        "original": "IMG_0501"
-      },
-      {
-        "image": "assets/items/img_0502.jpg",
-        "thumb": "assets/thumbs/img_0502.jpg",
-        "original": "IMG_0502"
-      },
-      {
-        "image": "assets/items/img_0503.jpg",
-        "thumb": "assets/thumbs/img_0503.jpg",
-        "original": "IMG_0503"
-      },
-      {
-        "image": "assets/items/img_0512.jpg",
-        "thumb": "assets/thumbs/img_0512.jpg",
-        "original": "IMG_0512"
-      }
-    ],
-    "description": "GVM LED panel light setup with barn doors and stand shown. Useful for video, photography, streaming, or product lighting.",
-    "notes": [
-      "Includes visible GVM light panel and stand",
-      "Power/accessories should be confirmed in person",
-      "Good candidate for quick function test at sale"
-    ]
-  },
-  {
-    "id": "oval-glass-coffee-table",
-    "title": "Oval Glass Coffee Table",
-    "category": "Tables",
-    "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0504.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0504.jpg",
-        "thumb": "assets/thumbs/img_0504.jpg",
-        "original": "IMG_0504"
-      },
-      {
-        "image": "assets/items/img_0505.jpg",
-        "thumb": "assets/thumbs/img_0505.jpg",
-        "original": "IMG_0505"
-      }
-    ],
-    "description": "Oval glass-top coffee table with decorative metal base. Light visual footprint and classic styling for a living room or sitting area.",
-    "notes": [
-      "Glass oval top",
-      "Decorative metal base",
-      "Inspect glass edge and surface in person"
-    ]
-  },
-  {
-    "id": "patterned-club-chair",
-    "title": "Patterned Club Chair",
-    "category": "Chairs",
-    "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0509.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0509.jpg",
-        "thumb": "assets/thumbs/img_0509.jpg",
-        "original": "IMG_0509"
-      },
-      {
-        "image": "assets/items/img_0510.jpg",
-        "thumb": "assets/thumbs/img_0510.jpg",
-        "original": "IMG_0510"
-      },
-      {
-        "image": "assets/items/img_0511.jpg",
-        "thumb": "assets/thumbs/img_0511.jpg",
-        "original": "IMG_0511"
-      },
-      {
-        "image": "assets/items/img_0523.jpg",
-        "thumb": "assets/thumbs/img_0523.jpg",
-        "original": "IMG_0523"
-      },
-      {
-        "image": "assets/items/img_0524.jpg",
-        "thumb": "assets/thumbs/img_0524.jpg",
-        "original": "IMG_0524"
-      },
-      {
-        "image": "assets/items/img_0525.jpg",
-        "thumb": "assets/thumbs/img_0525.jpg",
-        "original": "IMG_0525"
-      }
-    ],
-    "description": "Upholstered club chair with bold geometric/patterned fabric and dark turned front legs. Distinctive accent seating.",
-    "notes": [
-      "Bold patterned upholstery",
-      "Compact club-chair profile",
-      "Fabric condition visible in photos; inspect in person"
+      "Priced to invite offers"
     ]
   },
   {
     "id": "red-loveseat",
     "title": "Red Upholstered Loveseat",
-    "category": "Sofas & Loveseats",
+    "category": "Living Room",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$175 OBO",
+    "featured": false,
     "hero": "assets/items/img_0513.jpg",
     "photos": [
       {
@@ -276,11 +165,58 @@ window.SALE_ITEMS = [
         "original": "IMG_0522"
       }
     ],
-    "description": "Red loveseat with rolled arms and skirted base. Comfortable small sofa size for a living room, office, or bedroom sitting area.",
+    "description": "Red loveseat with rolled arms and skirted base. Compact two-seat option for a living room, bedroom, or office.",
     "notes": [
-      "Two-seat loveseat proportions",
-      "Rolled-arm traditional silhouette",
-      "Some close-up photos included for inspection"
+      "Traditional rolled-arm silhouette",
+      "Close-up photos included",
+      "All reasonable offers considered"
+    ]
+  },
+  {
+    "id": "patterned-club-chair",
+    "title": "Patterned Club Chair",
+    "category": "Chairs",
+    "room": "Living Room",
+    "price": "$125 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0509.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0509.jpg",
+        "thumb": "assets/thumbs/img_0509.jpg",
+        "original": "IMG_0509"
+      },
+      {
+        "image": "assets/items/img_0510.jpg",
+        "thumb": "assets/thumbs/img_0510.jpg",
+        "original": "IMG_0510"
+      },
+      {
+        "image": "assets/items/img_0511.jpg",
+        "thumb": "assets/thumbs/img_0511.jpg",
+        "original": "IMG_0511"
+      },
+      {
+        "image": "assets/items/img_0523.jpg",
+        "thumb": "assets/thumbs/img_0523.jpg",
+        "original": "IMG_0523"
+      },
+      {
+        "image": "assets/items/img_0524.jpg",
+        "thumb": "assets/thumbs/img_0524.jpg",
+        "original": "IMG_0524"
+      },
+      {
+        "image": "assets/items/img_0525.jpg",
+        "thumb": "assets/thumbs/img_0525.jpg",
+        "original": "IMG_0525"
+      }
+    ],
+    "description": "Upholstered club chair with bold geometric pattern and dark turned legs. Distinctive accent seating with personality.",
+    "notes": [
+      "Statement fabric pattern",
+      "Compact club-chair profile",
+      "Can pair with decor pieces"
     ]
   },
   {
@@ -288,8 +224,8 @@ window.SALE_ITEMS = [
     "title": "Floral Wingback Accent Chair",
     "category": "Chairs",
     "room": "Bedroom / Living Room",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$90 OBO",
+    "featured": false,
     "hero": "assets/items/img_0516.jpg",
     "photos": [
       {
@@ -308,131 +244,170 @@ window.SALE_ITEMS = [
         "original": "IMG_0518"
       }
     ],
-    "description": "Light floral upholstered wingback-style accent chair with curved arms and shaped back. Soft cottage/traditional look.",
+    "description": "Light floral upholstered accent chair with curved arms and shaped back. Soft traditional style for a reading corner or bedroom.",
     "notes": [
-      "Light floral fabric",
-      "Wingback-inspired shape",
-      "Good bedroom or reading-chair candidate"
+      "Light floral upholstery",
+      "Comfortable accent scale",
+      "Offer-friendly pricing"
     ]
   },
   {
-    "id": "gray-sectional-ottoman",
-    "title": "Gray Sectional Sofa with Ottoman",
-    "category": "Sofas & Loveseats",
-    "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0528.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0526.jpg",
-        "thumb": "assets/thumbs/img_0526.jpg",
-        "original": "IMG_0526"
-      },
-      {
-        "image": "assets/items/img_0527.jpg",
-        "thumb": "assets/thumbs/img_0527.jpg",
-        "original": "IMG_0527"
-      },
-      {
-        "image": "assets/items/img_0528.jpg",
-        "thumb": "assets/thumbs/img_0528.jpg",
-        "original": "IMG_0528"
-      },
-      {
-        "image": "assets/items/img_0529.jpg",
-        "thumb": "assets/thumbs/img_0529.jpg",
-        "original": "IMG_0529"
-      }
-    ],
-    "description": "Gray sectional sofa with chaise-style section and matching ottoman. Casual family-room seating with soft upholstery.",
-    "notes": [
-      "Sectional plus ottoman shown",
-      "Gray fabric upholstery",
-      "Buyer should verify dimensions and fabric wear in person"
-    ]
-  },
-  {
-    "id": "plant-stand-artificial-tree",
-    "title": "Artificial Tree with Plant Stand",
-    "category": "Decor",
-    "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0530.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0530.jpg",
-        "thumb": "assets/thumbs/img_0530.jpg",
-        "original": "IMG_0530"
-      },
-      {
-        "image": "assets/items/img_0531.jpg",
-        "thumb": "assets/thumbs/img_0531.jpg",
-        "original": "IMG_0531"
-      },
-      {
-        "image": "assets/items/img_0532.jpg",
-        "thumb": "assets/thumbs/img_0532.jpg",
-        "original": "IMG_0532"
-      },
-      {
-        "image": "assets/items/img_0574.jpg",
-        "thumb": "assets/thumbs/img_0574.jpg",
-        "original": "IMG_0574"
-      },
-      {
-        "image": "assets/items/img_0575.jpg",
-        "thumb": "assets/thumbs/img_0575.jpg",
-        "original": "IMG_0575"
-      }
-    ],
-    "description": "Tall artificial greenery/tree with planter and stand shown in multiple rooms. Adds height and greenery without maintenance.",
-    "notes": [
-      "Artificial greenery",
-      "Planter/stand shown",
-      "Decorative indoor use"
-    ]
-  },
-  {
-    "id": "dark-wood-bed",
-    "title": "Dark Wood Bed Frame",
-    "category": "Bedroom Furniture",
+    "id": "cream-highback-chair",
+    "title": "Cream High-Back Upholstered Chair",
+    "category": "Chairs",
     "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0535.jpg",
+    "price": "$95 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0565.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0533.jpg",
-        "thumb": "assets/thumbs/img_0533.jpg",
-        "original": "IMG_0533"
+        "image": "assets/items/img_0565.jpg",
+        "thumb": "assets/thumbs/img_0565.jpg",
+        "original": "IMG_0565"
       },
       {
-        "image": "assets/items/img_0534.jpg",
-        "thumb": "assets/thumbs/img_0534.jpg",
-        "original": "IMG_0534"
-      },
-      {
-        "image": "assets/items/img_0535.jpg",
-        "thumb": "assets/thumbs/img_0535.jpg",
-        "original": "IMG_0535"
+        "image": "assets/items/img_0566.jpg",
+        "thumb": "assets/thumbs/img_0566.jpg",
+        "original": "IMG_0566"
       }
     ],
-    "description": "Dark wood bed frame with carved posts and arched headboard/footboard styling. Traditional bedroom piece with substantial wood presence.",
+    "description": "Cream upholstered high-back chair with subtle damask-style pattern and rolled arms. Formal accent seating in a neutral tone.",
     "notes": [
-      "Dark wood frame",
-      "Carved post details",
-      "Mattress/bedding not represented as included unless confirmed"
+      "Neutral fabric",
+      "High-back profile",
+      "Inspect fabric condition in person"
+    ]
+  },
+  {
+    "id": "pair-scroll-metal-bar-chairs",
+    "title": "Pair of Scroll Metal Bar Chairs",
+    "category": "Chairs",
+    "room": "Dining Area",
+    "price": "$120 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0619.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0500.jpg",
+        "thumb": "assets/thumbs/img_0500.jpg",
+        "original": "IMG_0500"
+      },
+      {
+        "image": "assets/items/img_0506.jpg",
+        "thumb": "assets/thumbs/img_0506.jpg",
+        "original": "IMG_0506"
+      },
+      {
+        "image": "assets/items/img_0507.jpg",
+        "thumb": "assets/thumbs/img_0507.jpg",
+        "original": "IMG_0507"
+      },
+      {
+        "image": "assets/items/img_0508.jpg",
+        "thumb": "assets/thumbs/img_0508.jpg",
+        "original": "IMG_0508"
+      },
+      {
+        "image": "assets/items/img_0619.jpg",
+        "thumb": "assets/thumbs/img_0619.jpg",
+        "original": "IMG_0619"
+      }
+    ],
+    "description": "Pair of black metal scroll-back chairs with patterned upholstered seats. Good for a bar-height counter, breakfast area, or accent seating.",
+    "notes": [
+      "Pair shown in added photos",
+      "Decorative metal frames",
+      "Seat condition shown in close-ups"
+    ]
+  },
+  {
+    "id": "black-bar-stool",
+    "title": "Black Cushioned Bar Stool",
+    "category": "Chairs",
+    "room": "Kitchen / Bar",
+    "price": "$55 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0599.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0599.jpg",
+        "thumb": "assets/thumbs/img_0599.jpg",
+        "original": "IMG_0599"
+      },
+      {
+        "image": "assets/items/img_0603.jpg",
+        "thumb": "assets/thumbs/img_0603.jpg",
+        "original": "IMG_0603"
+      },
+      {
+        "image": "assets/items/img_0604.jpg",
+        "thumb": "assets/thumbs/img_0604.jpg",
+        "original": "IMG_0604"
+      }
+    ],
+    "description": "Black cushioned bar stool with modern low-profile seat and metal frame. Useful for counter seating or a studio/workspace.",
+    "notes": [
+      "Single stool shown",
+      "Modern black finish",
+      "Quick pickup item"
+    ]
+  },
+  {
+    "id": "oval-glass-coffee-table",
+    "title": "Oval Glass Coffee Table",
+    "category": "Tables",
+    "room": "Living Room",
+    "price": "$100 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0504.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0504.jpg",
+        "thumb": "assets/thumbs/img_0504.jpg",
+        "original": "IMG_0504"
+      },
+      {
+        "image": "assets/items/img_0505.jpg",
+        "thumb": "assets/thumbs/img_0505.jpg",
+        "original": "IMG_0505"
+      }
+    ],
+    "description": "Oval glass-top coffee table with decorative metal base. Clean visual footprint and classic living-room proportions.",
+    "notes": [
+      "Glass oval top",
+      "Decorative base",
+      "Bring padding for transport"
+    ]
+  },
+  {
+    "id": "small-metal-side-tables",
+    "title": "Pair of Small Metal Side Tables",
+    "category": "Tables",
+    "room": "Living Room",
+    "price": "$60 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0570.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0570.jpg",
+        "thumb": "assets/thumbs/img_0570.jpg",
+        "original": "IMG_0570"
+      }
+    ],
+    "description": "Pair of small metal side/accent tables with light tops and slender frames. Useful as plant stands or compact end tables.",
+    "notes": [
+      "Pair shown",
+      "Compact footprint",
+      "Good add-on purchase"
     ]
   },
   {
     "id": "white-wicker-vanity-nightstand",
     "title": "White Wicker Vanity / Nightstand with Mirror",
-    "category": "Bedroom Furniture",
+    "category": "Bedroom",
     "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$175 OBO",
+    "featured": false,
     "hero": "assets/items/img_0536.jpg",
     "photos": [
       {
@@ -470,16 +445,48 @@ window.SALE_ITEMS = [
     "notes": [
       "Drawer storage shown",
       "Mirror included in photos",
-      "Good bedroom, guest room, or vanity use"
+      "Good guest room or vanity piece"
+    ]
+  },
+  {
+    "id": "dark-wood-bed",
+    "title": "Dark Wood Bed Frame",
+    "category": "Bedroom",
+    "room": "Bedroom",
+    "price": "$275 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0535.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0533.jpg",
+        "thumb": "assets/thumbs/img_0533.jpg",
+        "original": "IMG_0533"
+      },
+      {
+        "image": "assets/items/img_0534.jpg",
+        "thumb": "assets/thumbs/img_0534.jpg",
+        "original": "IMG_0534"
+      },
+      {
+        "image": "assets/items/img_0535.jpg",
+        "thumb": "assets/thumbs/img_0535.jpg",
+        "original": "IMG_0535"
+      }
+    ],
+    "description": "Dark wood bed frame with carved posts and arched headboard/footboard styling. Traditional bedroom piece with substantial presence.",
+    "notes": [
+      "Dark wood frame",
+      "Carved post details",
+      "Confirm size in person"
     ]
   },
   {
     "id": "wood-bed-green-room",
     "title": "Wood Bed Frame - Green Room",
-    "category": "Bedroom Furniture",
+    "category": "Bedroom",
     "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$225 OBO",
+    "featured": false,
     "hero": "assets/items/img_0543.jpg",
     "photos": [
       {
@@ -498,33 +505,195 @@ window.SALE_ITEMS = [
         "original": "IMG_0544"
       }
     ],
-    "description": "Wood bed frame with turned posts and curved headboard in the green bedroom. Traditional warm wood finish.",
+    "description": "Wood bed frame with turned posts and curved headboard in a warm finish. Straightforward traditional bedroom furniture.",
     "notes": [
       "Turned post details",
       "Curved headboard",
-      "Confirm bed size in person"
+      "Buyer pickup required"
     ]
   },
   {
-    "id": "dollhouse-playset",
-    "title": "Dollhouse Playset with Accessories",
-    "category": "Kids & Toys",
+    "id": "marble-top-nightstand",
+    "title": "Ornate Marble-Top Nightstand",
+    "category": "Bedroom",
     "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0545.jpg",
+    "price": "$125 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0567.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0545.jpg",
-        "thumb": "assets/thumbs/img_0545.jpg",
-        "original": "IMG_0545"
+        "image": "assets/items/img_0567.jpg",
+        "thumb": "assets/thumbs/img_0567.jpg",
+        "original": "IMG_0567"
+      },
+      {
+        "image": "assets/items/img_0568.jpg",
+        "thumb": "assets/thumbs/img_0568.jpg",
+        "original": "IMG_0568"
       }
     ],
-    "description": "Multi-level dollhouse playset with visible toy furniture and accessories. Colorful children’s play item.",
+    "description": "Dark ornate nightstand or side table with marble-look top and drawer/storage detail. Coordinates well with traditional furniture.",
     "notes": [
-      "Accessories shown in photo",
-      "Buyer should confirm completeness",
-      "Good kids/toy listing"
+      "Marble-look top",
+      "Drawer shown open",
+      "Carved dark styling"
+    ]
+  },
+  {
+    "id": "gvm-led-video-light-kit",
+    "title": "GVM LED Video Light Kit",
+    "category": "Electronics",
+    "room": "Equipment",
+    "price": "$95 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0501.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0501.jpg",
+        "thumb": "assets/thumbs/img_0501.jpg",
+        "original": "IMG_0501"
+      },
+      {
+        "image": "assets/items/img_0502.jpg",
+        "thumb": "assets/thumbs/img_0502.jpg",
+        "original": "IMG_0502"
+      },
+      {
+        "image": "assets/items/img_0503.jpg",
+        "thumb": "assets/thumbs/img_0503.jpg",
+        "original": "IMG_0503"
+      },
+      {
+        "image": "assets/items/img_0512.jpg",
+        "thumb": "assets/thumbs/img_0512.jpg",
+        "original": "IMG_0512"
+      }
+    ],
+    "description": "GVM LED panel lighting setup with barn doors and stand shown. Useful for photography, video, streaming, or product lighting.",
+    "notes": [
+      "GVM light panel visible",
+      "Stand shown",
+      "Function/accessories should be confirmed at sale"
+    ]
+  },
+  {
+    "id": "desktop-music-studio-setup",
+    "title": "Desktop Computer / Music Workstation Setup",
+    "category": "Electronics",
+    "room": "Office / Studio",
+    "price": "$450 OBO",
+    "featured": true,
+    "hero": "assets/items/img_0605.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0605.jpg",
+        "thumb": "assets/thumbs/img_0605.jpg",
+        "original": "IMG_0605"
+      },
+      {
+        "image": "assets/items/img_0606.jpg",
+        "thumb": "assets/thumbs/img_0606.jpg",
+        "original": "IMG_0606"
+      }
+    ],
+    "description": "Desk-based computer and music workstation setup with iMac-style display, keyboard, audio gear, speakers, and compact workstation table shown.",
+    "notes": [
+      "Bundle pricing is intentionally offer-based",
+      "Exact included electronics should be confirmed before purchase",
+      "Good candidate for call/text questions before visiting"
+    ]
+  },
+  {
+    "id": "floor-speakers",
+    "title": "Pair of Floor Speakers",
+    "category": "Electronics",
+    "room": "Office / Media",
+    "price": "$150 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0601.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0601.jpg",
+        "thumb": "assets/thumbs/img_0601.jpg",
+        "original": "IMG_0601"
+      }
+    ],
+    "description": "Pair of tall black floor speakers. Suitable for stereo, media room, or music setup depending on receiver compatibility.",
+    "notes": [
+      "Pair shown",
+      "Buyer should test/confirm model and connections",
+      "Priced as OBO"
+    ]
+  },
+  {
+    "id": "wall-mounted-tv",
+    "title": "Wall-Mounted Flat Screen TV",
+    "category": "Electronics",
+    "room": "Media Room",
+    "price": "$175 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0607.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0607.jpg",
+        "thumb": "assets/thumbs/img_0607.jpg",
+        "original": "IMG_0607"
+      }
+    ],
+    "description": "Flat screen TV mounted on the wall. Good media-room item if buyer wants a simple local pickup deal.",
+    "notes": [
+      "Confirm size/model in person",
+      "Mount/accessories not guaranteed unless confirmed",
+      "Call or message for details"
+    ]
+  },
+  {
+    "id": "bookcase-cabinet",
+    "title": "Bookcase / Cabinet with Storage",
+    "category": "Storage",
+    "room": "Office / Study",
+    "price": "$160 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0609.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0608.jpg",
+        "thumb": "assets/thumbs/img_0608.jpg",
+        "original": "IMG_0608"
+      },
+      {
+        "image": "assets/items/img_0609.jpg",
+        "thumb": "assets/thumbs/img_0609.jpg",
+        "original": "IMG_0609"
+      }
+    ],
+    "description": "Tall bookcase cabinet with open shelves and lower cabinet storage. Useful for books, office supplies, or display.",
+    "notes": [
+      "Books/accessories not automatically included",
+      "Lower cabinet storage",
+      "Buyer pickup required"
+    ]
+  },
+  {
+    "id": "wire-shelving-rack",
+    "title": "Black Wire Shelving Rack",
+    "category": "Storage",
+    "room": "Storage Area",
+    "price": "$65 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0610.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0610.jpg",
+        "thumb": "assets/thumbs/img_0610.jpg",
+        "original": "IMG_0610"
+      }
+    ],
+    "description": "Black wire shelving rack for storage, garage, pantry, office, or utility use. Practical piece for organizing bulky items.",
+    "notes": [
+      "Multiple shelves",
+      "Lightweight utility storage",
+      "Quick pickup item"
     ]
   },
   {
@@ -532,8 +701,8 @@ window.SALE_ITEMS = [
     "title": "Large Ornate Gold Framed Mirror",
     "category": "Wall Decor",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$220 OBO",
+    "featured": true,
     "hero": "assets/items/img_0547.jpg",
     "photos": [
       {
@@ -562,48 +731,53 @@ window.SALE_ITEMS = [
         "original": "IMG_0551"
       }
     ],
-    "description": "Large wall mirror with ornate gold-tone frame and carved corner detailing. Strong decorative focal point for entry, dining, or living room.",
+    "description": "Large wall mirror with ornate gold-tone frame and carved corner detailing. High-impact decorative focal point for entry, dining, or living area.",
     "notes": [
       "Large mirror",
-      "Ornate gold-tone frame",
-      "Transport carefully; buyer should bring padding"
+      "Transport carefully with padding",
+      "Strong statement decor piece"
     ]
   },
   {
-    "id": "brother-1034dx-serger",
-    "title": "Brother 1034DX Serger Sewing Machine",
-    "category": "Crafts & Sewing",
-    "room": "Sewing / Utility",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0554.jpg",
+    "id": "mirror-collection",
+    "title": "Decorative Mirror Collection",
+    "category": "Wall Decor",
+    "room": "Hall / Living Areas",
+    "price": "$40–$120 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0617.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0553.jpg",
-        "thumb": "assets/thumbs/img_0553.jpg",
-        "original": "IMG_0553"
+        "image": "assets/items/img_0613.jpg",
+        "thumb": "assets/thumbs/img_0613.jpg",
+        "original": "IMG_0613"
       },
       {
-        "image": "assets/items/img_0554.jpg",
-        "thumb": "assets/thumbs/img_0554.jpg",
-        "original": "IMG_0554"
+        "image": "assets/items/img_0617.jpg",
+        "thumb": "assets/thumbs/img_0617.jpg",
+        "original": "IMG_0617"
+      },
+      {
+        "image": "assets/items/img_0618.jpg",
+        "thumb": "assets/thumbs/img_0618.jpg",
+        "original": "IMG_0618"
       }
     ],
-    "description": "Brother 1034DX serger sewing machine with original box shown. Useful for sewing, garment finishing, and craft projects.",
+    "description": "Group of decorative mirrors in several shapes and finishes, including round/oval and gold-tone frames. Available individually or as a lot.",
     "notes": [
-      "Model 1034DX visible on box",
-      "Machine shown separately",
-      "Power/function should be confirmed at sale"
+      "Individual offers welcome",
+      "Multiple styles shown",
+      "Inspect mounting hardware in person"
     ]
   },
   {
     "id": "framed-wall-art-group",
-    "title": "Framed Wall Art Group",
+    "title": "Framed Wall Art Collection",
     "category": "Wall Decor",
     "room": "Throughout House",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0558.jpg",
+    "price": "$25–$150 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0614.jpg",
     "photos": [
       {
         "image": "assets/items/img_0557.jpg",
@@ -629,13 +803,38 @@ window.SALE_ITEMS = [
         "image": "assets/items/img_0577.jpg",
         "thumb": "assets/thumbs/img_0577.jpg",
         "original": "IMG_0577"
+      },
+      {
+        "image": "assets/items/img_0611.jpg",
+        "thumb": "assets/thumbs/img_0611.jpg",
+        "original": "IMG_0611"
+      },
+      {
+        "image": "assets/items/img_0612.jpg",
+        "thumb": "assets/thumbs/img_0612.jpg",
+        "original": "IMG_0612"
+      },
+      {
+        "image": "assets/items/img_0614.jpg",
+        "thumb": "assets/thumbs/img_0614.jpg",
+        "original": "IMG_0614"
+      },
+      {
+        "image": "assets/items/img_0615.jpg",
+        "thumb": "assets/thumbs/img_0615.jpg",
+        "original": "IMG_0615"
+      },
+      {
+        "image": "assets/items/img_0616.jpg",
+        "thumb": "assets/thumbs/img_0616.jpg",
+        "original": "IMG_0616"
       }
     ],
-    "description": "Assortment of framed wall art including floral prints, portrait-style art, inspirational/decorative panel, and larger framed scene.",
+    "description": "Assorted framed wall art including floral prints, decorative panels, religious/inspirational art, and larger framed scenes. Pieces can be priced separately.",
     "notes": [
       "Multiple framed pieces shown",
-      "Can be sold separately or as a group",
-      "Inspect frame/glass condition in person"
+      "Bundle offers welcome",
+      "Glass/frame condition should be inspected"
     ]
   },
   {
@@ -643,8 +842,8 @@ window.SALE_ITEMS = [
     "title": "Round Metal Wall Decor",
     "category": "Wall Decor",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$35 OBO",
+    "featured": false,
     "hero": "assets/items/img_0560.jpg",
     "photos": [
       {
@@ -662,120 +861,39 @@ window.SALE_ITEMS = [
     "notes": [
       "Round metal design",
       "Dark finish",
-      "Two angles shown"
+      "Easy pickup item"
     ]
   },
   {
-    "id": "table-lamp-black-shade",
-    "title": "Table Lamp with Black Shade",
-    "category": "Lighting",
-    "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0563.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0563.jpg",
-        "thumb": "assets/thumbs/img_0563.jpg",
-        "original": "IMG_0563"
-      },
-      {
-        "image": "assets/items/img_0564.jpg",
-        "thumb": "assets/thumbs/img_0564.jpg",
-        "original": "IMG_0564"
-      }
-    ],
-    "description": "Table lamp with dark base and black shade, photographed working. Suitable for bedroom, side table, or office lighting.",
-    "notes": [
-      "Lamp shown illuminated",
-      "Black shade",
-      "Confirm bulb/power at sale"
-    ]
-  },
-  {
-    "id": "cream-highback-chair",
-    "title": "Cream High-Back Upholstered Chair",
-    "category": "Chairs",
-    "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0565.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0565.jpg",
-        "thumb": "assets/thumbs/img_0565.jpg",
-        "original": "IMG_0565"
-      },
-      {
-        "image": "assets/items/img_0566.jpg",
-        "thumb": "assets/thumbs/img_0566.jpg",
-        "original": "IMG_0566"
-      }
-    ],
-    "description": "Cream upholstered high-back chair with subtle damask-style pattern and rolled arms. Formal accent chair for bedroom or sitting area.",
-    "notes": [
-      "Light neutral upholstery",
-      "High-back profile",
-      "Inspect fabric condition in person"
-    ]
-  },
-  {
-    "id": "marble-top-nightstand",
-    "title": "Ornate Marble-Top Nightstand",
-    "category": "Bedroom Furniture",
-    "room": "Bedroom",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0567.jpg",
-    "photos": [
-      {
-        "image": "assets/items/img_0567.jpg",
-        "thumb": "assets/thumbs/img_0567.jpg",
-        "original": "IMG_0567"
-      },
-      {
-        "image": "assets/items/img_0568.jpg",
-        "thumb": "assets/thumbs/img_0568.jpg",
-        "original": "IMG_0568"
-      }
-    ],
-    "description": "Dark ornate nightstand or side table with marble-look top and drawer/storage detail. Coordinates with traditional bedroom furniture.",
-    "notes": [
-      "Marble-look top",
-      "Drawer shown open",
-      "Carved dark wood styling"
-    ]
-  },
-  {
-    "id": "small-metal-side-tables",
-    "title": "Pair of Small Metal Side Tables",
-    "category": "Tables",
+    "id": "rose-wall-panel",
+    "title": "Rose Wall Panel Art",
+    "category": "Wall Decor",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0570.jpg",
+    "price": "$45 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0576.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0570.jpg",
-        "thumb": "assets/thumbs/img_0570.jpg",
-        "original": "IMG_0570"
+        "image": "assets/items/img_0576.jpg",
+        "thumb": "assets/thumbs/img_0576.jpg",
+        "original": "IMG_0576"
       }
     ],
-    "description": "Small metal side/accent tables with light tops and slender frames. Useful as plant stands, end tables, or small patio-style accents.",
+    "description": "Large square wall panel with raised rose design in deep red/brown tones. Textured decorative statement piece.",
     "notes": [
-      "Two small tables shown",
-      "Metal frame construction",
-      "Compact footprint"
+      "Textured floral panel",
+      "Square format",
+      "Warm dark finish"
     ]
   },
   {
     "id": "decorative-figurines-lot",
-    "title": "Decorative Figurines & Tabletop Decor Lot",
+    "title": "Decorative Figurines, Lamps & Tabletop Decor Lot",
     "category": "Decor",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0571.jpg",
+    "price": "$10–$80 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0579.jpg",
     "photos": [
       {
         "image": "assets/items/img_0571.jpg",
@@ -828,33 +946,166 @@ window.SALE_ITEMS = [
         "original": "IMG_0593"
       }
     ],
-    "description": "Mixed tabletop decor including figurines, lamps, gold pineapple pieces, rooster/chicken decor, small clock, and assorted decorative accents.",
+    "description": "Mixed tabletop decor including figurines, lamps, gold pineapple pieces, rooster/chicken decor, small clock, and assorted accents.",
     "notes": [
-      "Mixed decor lot; individual items may sell separately",
-      "Good for browsing during sale",
-      "Exact contents should be verified in person"
+      "Individual or bundle offers welcome",
+      "Good browse-in-person section",
+      "Exact contents should be verified at sale"
     ]
   },
   {
-    "id": "rose-wall-panel",
-    "title": "Rose Wall Panel Art",
-    "category": "Wall Decor",
+    "id": "plant-stand-artificial-tree",
+    "title": "Artificial Tree with Plant Stand",
+    "category": "Decor",
     "room": "Living Room",
-    "status": "Available",
-    "price": "Make offer",
-    "hero": "assets/items/img_0576.jpg",
+    "price": "$75 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0530.jpg",
     "photos": [
       {
-        "image": "assets/items/img_0576.jpg",
-        "thumb": "assets/thumbs/img_0576.jpg",
-        "original": "IMG_0576"
+        "image": "assets/items/img_0530.jpg",
+        "thumb": "assets/thumbs/img_0530.jpg",
+        "original": "IMG_0530"
+      },
+      {
+        "image": "assets/items/img_0531.jpg",
+        "thumb": "assets/thumbs/img_0531.jpg",
+        "original": "IMG_0531"
+      },
+      {
+        "image": "assets/items/img_0532.jpg",
+        "thumb": "assets/thumbs/img_0532.jpg",
+        "original": "IMG_0532"
+      },
+      {
+        "image": "assets/items/img_0574.jpg",
+        "thumb": "assets/thumbs/img_0574.jpg",
+        "original": "IMG_0574"
+      },
+      {
+        "image": "assets/items/img_0575.jpg",
+        "thumb": "assets/thumbs/img_0575.jpg",
+        "original": "IMG_0575"
       }
     ],
-    "description": "Large square wall panel with raised rose design in deep red/brown tones. Textured decorative statement piece.",
+    "description": "Tall artificial greenery/tree with planter and stand shown. Adds height and greenery without maintenance.",
     "notes": [
-      "Textured floral panel",
-      "Square format",
-      "Warm dark finish"
+      "Artificial greenery",
+      "Planter/stand shown",
+      "Indoor decorative use"
+    ]
+  },
+  {
+    "id": "dollhouse-playset",
+    "title": "Dollhouse Playset with Accessories",
+    "category": "Kids & Toys",
+    "room": "Bedroom",
+    "price": "$60 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0545.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0545.jpg",
+        "thumb": "assets/thumbs/img_0545.jpg",
+        "original": "IMG_0545"
+      }
+    ],
+    "description": "Multi-level dollhouse playset with visible toy furniture and accessories. Colorful children’s play item.",
+    "notes": [
+      "Accessories shown",
+      "Confirm completeness in person",
+      "Reasonable offers accepted"
+    ]
+  },
+  {
+    "id": "brother-1034dx-serger",
+    "title": "Brother 1034DX Serger Sewing Machine",
+    "category": "Sewing",
+    "room": "Sewing / Utility",
+    "price": "$175 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0554.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0553.jpg",
+        "thumb": "assets/thumbs/img_0553.jpg",
+        "original": "IMG_0553"
+      },
+      {
+        "image": "assets/items/img_0554.jpg",
+        "thumb": "assets/thumbs/img_0554.jpg",
+        "original": "IMG_0554"
+      }
+    ],
+    "description": "Brother 1034DX serger sewing machine with original box shown. Useful for garment finishing, sewing, and craft work.",
+    "notes": [
+      "Model 1034DX visible",
+      "Machine and box shown",
+      "Power/function should be confirmed at sale"
+    ]
+  },
+  {
+    "id": "singer-sewing-machine-table",
+    "title": "Singer Sewing Machine with Table",
+    "category": "Sewing",
+    "room": "Sewing / Utility",
+    "price": "$225 OBO",
+    "featured": true,
+    "hero": "assets/items/img_0624.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0622.jpg",
+        "thumb": "assets/thumbs/img_0622.jpg",
+        "original": "IMG_0622"
+      },
+      {
+        "image": "assets/items/img_0623.jpg",
+        "thumb": "assets/thumbs/img_0623.jpg",
+        "original": "IMG_0623"
+      },
+      {
+        "image": "assets/items/img_0624.jpg",
+        "thumb": "assets/thumbs/img_0624.jpg",
+        "original": "IMG_0624"
+      },
+      {
+        "image": "assets/items/img_0625.jpg",
+        "thumb": "assets/thumbs/img_0625.jpg",
+        "original": "IMG_0625"
+      }
+    ],
+    "description": "Singer sewing machine mounted in a work table with foot pedal and close-up machine photos. A substantial sewing setup for a hobbyist or collector.",
+    "notes": [
+      "Singer branding visible",
+      "Table and machine shown",
+      "Test/function status should be confirmed before purchase"
+    ]
+  },
+  {
+    "id": "record-player-console",
+    "title": "Retro Record Player / Media Console",
+    "category": "Electronics",
+    "room": "Living Room",
+    "price": "$140 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0620.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0620.jpg",
+        "thumb": "assets/thumbs/img_0620.jpg",
+        "original": "IMG_0620"
+      },
+      {
+        "image": "assets/items/img_0621.jpg",
+        "thumb": "assets/thumbs/img_0621.jpg",
+        "original": "IMG_0621"
+      }
+    ],
+    "description": "Retro-styled record player/media console with wood-look case and built-in controls. Decorative and functional if tested successfully.",
+    "notes": [
+      "Turntable shown open",
+      "Attractive retro look",
+      "Function should be confirmed in person"
     ]
   },
   {
@@ -862,8 +1113,8 @@ window.SALE_ITEMS = [
     "title": "Garage Tools, Ladders & Household Lot",
     "category": "Garage & Tools",
     "room": "Garage",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$10–$100 OBO",
+    "featured": false,
     "hero": "assets/items/img_0585.jpg",
     "photos": [
       {
@@ -914,9 +1165,9 @@ window.SALE_ITEMS = [
     ],
     "description": "Mixed garage and household items including ladders, storage drawers, yard/cleaning tools, hoses/tubing, small appliances, and utility items.",
     "notes": [
-      "Mixed garage lot; inspect in person",
       "Werner ladder visible",
-      "Some items may be sold individually"
+      "Mixed utility lot",
+      "Individual offers welcome"
     ]
   },
   {
@@ -924,8 +1175,8 @@ window.SALE_ITEMS = [
     "title": "Outdoor Planters & Yard Items",
     "category": "Outdoor",
     "room": "Outside",
-    "status": "Available",
-    "price": "Make offer",
+    "price": "$15–$85 OBO",
+    "featured": false,
     "hero": "assets/items/img_0594.jpg",
     "photos": [
       {
@@ -958,7 +1209,7 @@ window.SALE_ITEMS = [
     "notes": [
       "Outdoor/patio items",
       "Several planters shown",
-      "Condition best evaluated outside at sale"
+      "Best inspected outside at sale"
     ]
   }
 ];

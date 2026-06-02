@@ -1,14 +1,18 @@
-﻿const catalog = document.querySelector('#items');
+﻿const catalog = document.querySelector('#catalog');
+const featuredGrid = document.querySelector('#featuredGrid');
 const searchInput = document.querySelector('#search');
 const categorySelect = document.querySelector('#category');
+const listingCount = document.querySelector('#listingCount');
 const dialog = document.querySelector('#itemDialog');
 const dialogHero = document.querySelector('#dialogHero');
 const dialogThumbs = document.querySelector('#dialogThumbs');
 const dialogCategory = document.querySelector('#dialogCategory');
 const dialogTitle = document.querySelector('#dialogTitle');
+const dialogPrice = document.querySelector('#dialogPrice');
 const dialogDescription = document.querySelector('#dialogDescription');
 const dialogNotes = document.querySelector('#dialogNotes');
 
+listingCount.textContent = window.SALE_ITEMS.length;
 const categories = [...new Set(window.SALE_ITEMS.map(item => item.category))].sort();
 for (const category of categories) {
   const option = document.createElement('option');
@@ -20,31 +24,54 @@ for (const category of categories) {
 function itemMatches(item) {
   const query = searchInput.value.trim().toLowerCase();
   const category = categorySelect.value;
-  const haystack = [item.title, item.category, item.room, item.description, ...(item.notes || [])].join(' ').toLowerCase();
+  const haystack = [item.title, item.category, item.room, item.price, item.description, ...(item.notes || [])].join(' ').toLowerCase();
   return (!query || haystack.includes(query)) && (category === 'all' || item.category === category);
+}
+
+function cardTemplate(item, variant = 'standard') {
+  return `
+    <button class="image-button" type="button" aria-label="View ${item.title}">
+      <img loading="lazy" src="${item.hero}" alt="${item.title}" />
+      <span class="photo-count">${item.photos.length} photos</span>
+    </button>
+    <div class="item-copy">
+      <div class="item-meta"><span>${item.category}</span><span>${item.price}</span></div>
+      <h3>${item.title}</h3>
+      <p>${item.description}</p>
+      <div class="card-footer">
+        <span>${item.room}</span>
+        <button class="text-button" type="button">Details</button>
+      </div>
+    </div>`;
+}
+
+function bindCard(card, item) {
+  card.querySelectorAll('button').forEach(button => button.addEventListener('click', () => openDialog(item)));
+}
+
+function renderFeatured() {
+  featuredGrid.innerHTML = '';
+  for (const item of window.SALE_ITEMS.filter(item => item.featured).slice(0, 6)) {
+    const card = document.createElement('article');
+    card.className = 'item-card featured-card';
+    card.innerHTML = cardTemplate(item, 'featured');
+    bindCard(card, item);
+    featuredGrid.append(card);
+  }
 }
 
 function renderCatalog() {
   const items = window.SALE_ITEMS.filter(itemMatches);
   catalog.innerHTML = '';
   if (!items.length) {
-    catalog.innerHTML = '<p class="empty">No items match that search.</p>';
+    catalog.innerHTML = '<p class="empty">No items match that search. Try a broader category or message GEO directly.</p>';
     return;
   }
   for (const item of items) {
     const card = document.createElement('article');
     card.className = 'item-card';
-    card.innerHTML = `
-      <button class="image-button" type="button" aria-label="View ${item.title}">
-        <img loading="lazy" src="${item.hero}" alt="${item.title}" />
-      </button>
-      <div class="item-copy">
-        <div class="item-meta"><span>${item.category}</span><span>${item.price}</span></div>
-        <h3>${item.title}</h3>
-        <p>${item.description}</p>
-        <button class="text-button" type="button">View ${item.photos.length} photo${item.photos.length === 1 ? '' : 's'}</button>
-      </div>`;
-    card.querySelectorAll('button').forEach(button => button.addEventListener('click', () => openDialog(item)));
+    card.innerHTML = cardTemplate(item);
+    bindCard(card, item);
     catalog.append(card);
   }
 }
@@ -52,8 +79,9 @@ function renderCatalog() {
 function openDialog(item) {
   dialogHero.src = item.hero;
   dialogHero.alt = item.title;
-  dialogCategory.textContent = `${item.category} • ${item.room} • ${item.price}`;
+  dialogCategory.textContent = `${item.category} • ${item.room}`;
   dialogTitle.textContent = item.title;
+  dialogPrice.textContent = `${item.price} — or best offer`;
   dialogDescription.textContent = item.description;
   dialogNotes.innerHTML = item.notes.map(note => `<li>${note}</li>`).join('');
   dialogThumbs.innerHTML = '';
@@ -75,4 +103,5 @@ dialog.addEventListener('click', event => {
 });
 searchInput.addEventListener('input', renderCatalog);
 categorySelect.addEventListener('change', renderCatalog);
+renderFeatured();
 renderCatalog();
