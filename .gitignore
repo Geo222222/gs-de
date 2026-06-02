@@ -1,0 +1,18 @@
+﻿# Dependencies / local tooling
+node_modules/
+__pycache__/
+*.pyc
+
+# Local dev servers and OS noise
+.server-job-id
+.DS_Store
+Thumbs.db
+
+# Original capture media
+# GitHub Pages uses optimized JPGs in assets/items and assets/thumbs.
+# Keep iPad originals locally unless you intentionally want to publish them.
+images/
+
+# Temporary exports
+*.tmp
+*.log

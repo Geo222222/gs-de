@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Furniture & Home Sale</title>
+  <meta name="description" content="Furniture, decor, tools, outdoor items, and household goods available at a local moving/estate-style sale." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top">Furniture & Home Sale</a>
+      <div class="nav-links">
+        <a href="#items">Items</a>
+        <a href="#details">Sale Details</a>
+        <a href="signs.html">Print Signs</a>
+      </div>
+    </nav>
+    <section class="hero-grid" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Local furniture, decor, tools, and household goods</p>
+        <h1>Estate-style home sale, organized by room.</h1>
+        <p class="lead">Browse preview photos before visiting. Items are available in person only and sold as-is unless otherwise noted.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#items">Browse items</a>
+          <a class="button ghost" href="#details">When & where</a>
+        </div>
+      </div>
+      <aside class="sale-card" id="details" aria-label="Sale details">
+        <h2>Sale Schedule</h2>
+        <dl>
+          <div><dt>Wednesday</dt><dd>June 3, 2026</dd></div>
+          <div><dt>Thursday</dt><dd>June 4, 2026</dd></div>
+          <div><dt>Friday</dt><dd>June 5, 2026</dd></div>
+          <div><dt>Sunday</dt><dd>June 7, 2026</dd></div>
+        </dl>
+        <p><strong>Hours:</strong> Add sale hours here</p>
+        <p><strong>Address:</strong> Add address or neighborhood here</p>
+        <p class="small">Tip: update these details in <code>index.html</code> and <code>signs.html</code> before publishing.</p>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">What to expect</p>
+        <h2>Furniture first, plus useful household lots.</h2>
+      </div>
+      <p>Photos are grouped by item so shoppers can quickly decide what they want to inspect. Prices are left as “make offer” so you can negotiate on site or replace them with fixed prices later.</p>
+    </section>
+
+    <section class="controls section" aria-label="Catalog filters">
+      <div class="search-wrap">
+        <label for="search">Search items</label>
+        <input id="search" type="search" placeholder="Try chair, bed, tools, decor…" />
+      </div>
+      <div class="filter-wrap">
+        <label for="category">Category</label>
+        <select id="category"><option value="all">All categories</option></select>
+      </div>
+    </section>
+
+    <section class="section catalog" id="items" aria-live="polite"></section>
+  </main>
+
+  <dialog id="itemDialog" class="dialog">
+    <button class="dialog-close" type="button" aria-label="Close item details">×</button>
+    <div class="dialog-grid">
+      <div>
+        <img id="dialogHero" alt="" />
+        <div id="dialogThumbs" class="dialog-thumbs"></div>
+      </div>
+      <div class="dialog-copy">
+        <p id="dialogCategory" class="eyebrow"></p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogDescription"></p>
+        <ul id="dialogNotes"></ul>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <p>All items sold locally, in person, and as-is. Bring loading help for large furniture.</p>
+  </footer>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
