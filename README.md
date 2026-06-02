@@ -14,7 +14,7 @@ Static GitHub Pages site for GEO's local furniture / estate-style home sale in D
 ## What is included
 
 - Futuristic responsive landing page and item catalog
-- 46 grouped item listings from 165 source photos
+- 48 grouped item listings from 174 source photos
 - Search and category filtering
 - Featured high-interest listings
 - Call and SMS links for GEO
@@ -71,7 +71,7 @@ Expected validation shape:
 
 ```json
 {
-  "listings": 46,
+  "listings": 48,
   "missing": []
 }
 ```
@@ -87,4 +87,5 @@ Expected validation shape:
 ## Notes
 
 Original HEIC and MOV files are intentionally ignored by `.gitignore`. The public site uses optimized JPG files so the catalog loads faster and works in normal browsers.
+
 

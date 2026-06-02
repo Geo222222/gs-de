@@ -524,6 +524,65 @@ const items = [
     ]
   },
   {
+    "id": "tufted-ottoman-bench",
+    "title": "Tufted Ottoman / Small Bench",
+    "category": "Chairs",
+    "room": "Living Room",
+    "price": "$65 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0668.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0668.jpg",
+        "thumb": "assets/thumbs/img_0668.jpg",
+        "original": "IMG_0668"
+      },
+      {
+        "image": "assets/items/img_0669.jpg",
+        "thumb": "assets/thumbs/img_0669.jpg",
+        "original": "IMG_0669"
+      }
+    ],
+    "description": "Small tufted ottoman or bench with light upholstery and wood legs. Useful as a footrest, vanity bench, or accent seating.",
+    "notes": [
+      "Tufted cushion top",
+      "Compact size",
+      "Pairs well with the rocking chair or accent seating"
+    ]
+  },
+  {
+    "id": "wood-frame-rocking-chair",
+    "title": "Wood Frame Rocking Chair",
+    "category": "Chairs",
+    "room": "Living Room",
+    "price": "$125 OBO",
+    "featured": false,
+    "hero": "assets/items/img_0665.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0665.jpg",
+        "thumb": "assets/thumbs/img_0665.jpg",
+        "original": "IMG_0665"
+      },
+      {
+        "image": "assets/items/img_0666.jpg",
+        "thumb": "assets/thumbs/img_0666.jpg",
+        "original": "IMG_0666"
+      },
+      {
+        "image": "assets/items/img_0667.jpg",
+        "thumb": "assets/thumbs/img_0667.jpg",
+        "original": "IMG_0667"
+      }
+    ],
+    "description": "Wood frame rocking chair with light patterned upholstered seat and back. Traditional accent chair for a living room, nursery, bedroom, or porch-style sitting area.",
+    "notes": [
+      "Rocking chair shown from multiple angles",
+      "Light patterned upholstery",
+      "Buyer should inspect fabric and rocker condition in person"
+    ]
+  },
+  {
     "id": "oval-glass-coffee-table",
     "title": "Oval Glass Coffee Table",
     "category": "Tables",
@@ -860,6 +919,16 @@ const items = [
         "image": "assets/items/img_0654.jpg",
         "thumb": "assets/thumbs/img_0654.jpg",
         "original": "IMG_0654"
+      },
+      {
+        "image": "assets/items/img_0671.jpg",
+        "thumb": "assets/thumbs/img_0671.jpg",
+        "original": "IMG_0671"
+      },
+      {
+        "image": "assets/items/img_0672.jpg",
+        "thumb": "assets/thumbs/img_0672.jpg",
+        "original": "IMG_0672"
       }
     ],
     "description": "Group of decorative mirrors in several shapes and finishes, including round/oval and gold-tone frames. Available individually or as a lot.",
@@ -942,6 +1011,16 @@ const items = [
         "image": "assets/items/img_0659.jpg",
         "thumb": "assets/thumbs/img_0659.jpg",
         "original": "IMG_0659"
+      },
+      {
+        "image": "assets/items/img_0670.jpg",
+        "thumb": "assets/thumbs/img_0670.jpg",
+        "original": "IMG_0670"
+      },
+      {
+        "image": "assets/items/img_0673.jpg",
+        "thumb": "assets/thumbs/img_0673.jpg",
+        "original": "IMG_0673"
       }
     ],
     "description": "Assorted framed wall art including floral prints, decorative panels, religious/inspirational art, and larger framed scenes. Pieces can be priced separately.",
