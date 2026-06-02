@@ -1,19 +1,23 @@
-﻿# GEO Home Sale
+﻿# GEO Curated Estate Drop
 
-Static GitHub Pages site for GEO's local furniture / estate-style home sale in Decatur, Alabama.
+Static GitHub Pages site for GEO's limited-time estate inventory release in Decatur, Alabama.
 
-## Sale contact
+## Positioning
+
+The site positions the offer as a curated estate drop for decorators, families, resellers, deal hunters, and anyone who can move quickly with pickup.
+
+## Contact
 
 - Name: GEO
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
-- Timing: All-day event on Wednesday–Friday and Sunday
-- Pricing: Suggested prices are intentionally marked `OBO` / or best offer
-- Whole-house buyout: $6,500 OBO
+- Timing: All-day access window on Wednesday–Friday and Sunday
+- Pricing: Individual pieces are OBO; bundles are encouraged
+- Whole-house pickup: $6,500 OBO
 
 ## What is included
 
-- Futuristic responsive landing page and item catalog
+- Responsive landing page and inventory experience
 - 48 grouped item listings from 174 source photos
 - Search and category filtering
 - Featured high-interest listings
@@ -21,8 +25,8 @@ Static GitHub Pages site for GEO's local furniture / estate-style home sale in D
 - Optimized web images in `assets/items/`
 - Thumbnails in `assets/thumbs/`
 - Contact sheets in `assets/contact/`
-- Printable physical signs in `signs.html`
-- Rebuild and validation scripts in `scripts/`
+- Printable street signs in `signs.html`
+- Clean inventory XLSX and CSV in `outputs/geo-sale-inventory/`
 
 ## Local preview
 
@@ -83,9 +87,4 @@ Expected validation shape:
 3. Set source to `Deploy from a branch`.
 4. Select branch `main` and folder `/root`.
 5. Save and wait for GitHub to publish.
-
-## Notes
-
-Original HEIC and MOV files are intentionally ignored by `.gitignore`. The public site uses optimized JPG files so the catalog loads faster and works in normal browsers.
-
 

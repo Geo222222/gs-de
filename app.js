@@ -40,7 +40,7 @@ function cardTemplate(item, variant = 'standard') {
       <p>${item.description}</p>
       <div class="card-footer">
         <span>${item.room}</span>
-        <button class="text-button" type="button">Details</button>
+        <button class="text-button" type="button">Inspect</button>
       </div>
     </div>`;
 }
@@ -64,7 +64,7 @@ function renderCatalog() {
   const items = window.SALE_ITEMS.filter(itemMatches);
   catalog.innerHTML = '';
   if (!items.length) {
-    catalog.innerHTML = '<p class="empty">No items match that search. Try a broader category or message GEO directly.</p>';
+    catalog.innerHTML = '<p class="empty">No matching finds right now. Try a broader search or text GEO — some pieces move as bundles.</p>';
     return;
   }
   for (const item of items) {
@@ -105,3 +105,4 @@ searchInput.addEventListener('input', renderCatalog);
 categorySelect.addEventListener('change', renderCatalog);
 renderFeatured();
 renderCatalog();
+
