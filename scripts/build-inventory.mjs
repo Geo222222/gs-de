@@ -7,6 +7,7 @@ const context = { window: {} };
 vm.runInNewContext(source, context);
 const items = context.window.SALE_ITEMS;
 const priceNumber = (price) => {
+  if (/^free\b/i.test(String(price).trim())) return 0;
   const match = String(price).match(/\$([0-9,]+)/);
   return match ? Number(match[1].replace(/,/g, "")) : 0;
 };
@@ -75,7 +76,7 @@ const categoryRows = [...categoryMap.entries()].sort((a,b)=>b[1].ask-a[1].ask).m
 categories.getRange(`A1:C${categoryRows.length + 1}`).values = [["Category","Listings","Base Asking Total"], ...categoryRows];
 
 summary.getRange("A1:B9").values = [
-  ["GEO Home Sale Inventory", ""],
+  ["GEO Curated Estate Drop Inventory", ""],
   ["Contact", "GEO"],
   ["Phone", "205-418-8019"],
   ["Location", "Decatur, Alabama"],

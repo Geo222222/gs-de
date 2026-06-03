@@ -1,5 +1,191 @@
 window.SALE_ITEMS = [
   {
+    "id": "cassette-recorder-bonus",
+    "title": "Cassette Recorder Bonus",
+    "category": "Free Bonus",
+    "room": "Electronics",
+    "price": "Free w/ $5+ purchase",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0715.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0715.jpg",
+        "thumb": "assets/thumbs/img_0715.jpg",
+        "original": "IMG_0715"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
+    "description": "Portable cassette recorder offered as a nostalgic add-on bonus for buyers making a $5+ purchase.",
+    "notes": [
+      "Free with $5+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Automatic stop label visible",
+      "Function should be confirmed in person"
+    ]
+  },
+  {
+    "id": "ceramic-chicken-rooster-bonus",
+    "title": "Ceramic Chicken / Rooster Decor Bonus",
+    "category": "Free Bonus",
+    "room": "Decor",
+    "price": "Free w/ $5+ purchase",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0712.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0712.jpg",
+        "thumb": "assets/thumbs/img_0712.jpg",
+        "original": "IMG_0712"
+      },
+      {
+        "image": "assets/items/img_0713.jpg",
+        "thumb": "assets/thumbs/img_0713.jpg",
+        "original": "IMG_0713"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
+    "description": "Kitchen-style ceramic chicken/rooster decor offered as a light, easy bonus item with a $5+ purchase.",
+    "notes": [
+      "Free with $5+ purchase",
+      "Limit 1 free bonus item per customer",
+      "White chicken and rooster photos included"
+    ]
+  },
+  {
+    "id": "dvd-player-bonus",
+    "title": "DVD Player Bonus",
+    "category": "Free Bonus",
+    "room": "Electronics",
+    "price": "Free w/ $5+ purchase",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0714.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0714.jpg",
+        "thumb": "assets/thumbs/img_0714.jpg",
+        "original": "IMG_0714"
+      },
+      {
+        "image": "assets/items/img_0043.jpg",
+        "thumb": "assets/thumbs/img_0043.jpg",
+        "original": "IMG_0043"
+      },
+      {
+        "image": "assets/items/img_0044.jpg",
+        "thumb": "assets/thumbs/img_0044.jpg",
+        "original": "IMG_0044"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
+    "description": "Black DVD player offered as a simple bonus item for buyers making a $5+ purchase.",
+    "notes": [
+      "Free with $5+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Function/cables should be confirmed in person"
+    ]
+  },
+  {
+    "id": "gray-felt-bag-bonus",
+    "title": "Gray Felt Bag Bonus",
+    "category": "Free Bonus",
+    "room": "Accessories",
+    "price": "Free w/ $5+ purchase",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0722.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0722.jpg",
+        "thumb": "assets/thumbs/img_0722.jpg",
+        "original": "IMG_0722"
+      },
+      {
+        "image": "assets/items/img_0723.jpg",
+        "thumb": "assets/thumbs/img_0723.jpg",
+        "original": "IMG_0723"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
+    "description": "Gray felt bag shown from front and back. Offered as a bonus item for a buyer making a $5+ purchase.",
+    "notes": [
+      "Free with $5+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Front and back photos included"
+    ]
+  },
+  {
+    "id": "red-quilted-bag-bonus",
+    "title": "Red Quilted Bag Bonus",
+    "category": "Free Bonus",
+    "room": "Accessories",
+    "price": "Free w/ $5+ purchase",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0721.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0721.jpg",
+        "thumb": "assets/thumbs/img_0721.jpg",
+        "original": "IMG_0721"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
+    "description": "Red quilted bag with gray/faux-fur trim offered as a bonus item for a buyer making a $5+ purchase.",
+    "notes": [
+      "Free with $5+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Inspect condition in person"
+    ]
+  },
+  {
+    "id": "vizio-sound-bar-bonus",
+    "title": "Vizio Sound Bar Bonus",
+    "category": "Free Bonus",
+    "room": "Electronics",
+    "price": "Free w/ $10+ purchase",
+    "quantity": 1,
+    "featured": true,
+    "hero": "assets/items/img_0038.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0038.jpg",
+        "thumb": "assets/thumbs/img_0038.jpg",
+        "original": "IMG_0038"
+      },
+      {
+        "image": "assets/items/img_0039.jpg",
+        "thumb": "assets/thumbs/img_0039.jpg",
+        "original": "IMG_0039"
+      },
+      {
+        "image": "assets/items/img_0040.jpg",
+        "thumb": "assets/thumbs/img_0040.jpg",
+        "original": "IMG_0040"
+      },
+      {
+        "image": "assets/items/img_0041.jpg",
+        "thumb": "assets/thumbs/img_0041.jpg",
+        "original": "IMG_0041"
+      },
+      {
+        "image": "assets/items/img_0042.jpg",
+        "thumb": "assets/thumbs/img_0042.jpg",
+        "original": "IMG_0042"
+      }
+    ],
+    "freeOffer": "Free with a purchase of $10 or more; limit 1 free bonus item per customer.",
+    "description": "Vizio sound bar with multiple detail photos. A practical electronics bonus designed to make small purchases feel more valuable.",
+    "notes": [
+      "Free with $10+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Vizio branding visible",
+      "Buyer should confirm cables/accessories in person"
+    ]
+  },
+  {
     "id": "dark-wood-bed",
     "title": "Dark Wood Bed Frame",
     "category": "Bedroom",
@@ -766,10 +952,25 @@ window.SALE_ITEMS = [
     "title": "Retro Record Player / Media Console",
     "category": "Electronics",
     "room": "Living Room",
-    "price": "$50 OBO",
+    "price": "Free w/ $30+ purchase",
     "featured": false,
-    "hero": "assets/items/img_0620.jpg",
+    "hero": "assets/items/img_0708.jpg",
     "photos": [
+      {
+        "image": "assets/items/img_0708.jpg",
+        "thumb": "assets/thumbs/img_0708.jpg",
+        "original": "IMG_0708"
+      },
+      {
+        "image": "assets/items/img_0709.jpg",
+        "thumb": "assets/thumbs/img_0709.jpg",
+        "original": "IMG_0709"
+      },
+      {
+        "image": "assets/items/img_0710.jpg",
+        "thumb": "assets/thumbs/img_0710.jpg",
+        "original": "IMG_0710"
+      },
       {
         "image": "assets/items/img_0620.jpg",
         "thumb": "assets/thumbs/img_0620.jpg",
@@ -781,12 +982,14 @@ window.SALE_ITEMS = [
         "original": "IMG_0621"
       }
     ],
-    "description": "Retro-styled record player/media console with wood-look case and built-in controls. Decorative and functional if tested successfully.",
+    "description": "Victrola-style vinyl/record player console with wood-look case and built-in controls. Offered as a strong bonus item for buyers spending $30 or more.",
     "notes": [
-      "Turntable shown open",
-      "Attractive retro look",
+      "Free with $30+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Vinyl player shown open and close-up",
       "Function should be confirmed in person"
-    ]
+    ],
+    "freeOffer": "Free with a purchase of $30 or more; limit 1 free bonus item per customer."
   },
   {
     "id": "wall-mounted-tv",
@@ -1334,6 +1537,29 @@ window.SALE_ITEMS = [
     ]
   },
   {
+    "id": "blue-floral-vase",
+    "title": "Blue Floral Vase",
+    "category": "Decor",
+    "room": "Decor / Tabletop",
+    "price": "$20 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0711.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0711.jpg",
+        "thumb": "assets/thumbs/img_0711.jpg",
+        "original": "IMG_0711"
+      }
+    ],
+    "description": "Deep blue decorative vase with floral detail. Easy tabletop decor piece for a shelf, mantel, entry table, or resale display.",
+    "notes": [
+      "Single vase shown",
+      "Good small add-on item",
+      "Inspect condition in person"
+    ]
+  },
+  {
     "id": "family-figurine",
     "title": "Family Figurine",
     "category": "Decor",
@@ -1676,12 +1902,167 @@ window.SALE_ITEMS = [
     "quantity": 3
   },
   {
+    "id": "decorative-upholstery-remnant-rolls",
+    "title": "Decorative Upholstery Remnant Rolls",
+    "category": "Sewing & Upholstery",
+    "room": "Sewing / Materials",
+    "price": "$125 OBO for lot",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0727.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0726.jpg",
+        "thumb": "assets/thumbs/img_0726.jpg",
+        "original": "IMG_0726"
+      },
+      {
+        "image": "assets/items/img_0727.jpg",
+        "thumb": "assets/thumbs/img_0727.jpg",
+        "original": "IMG_0727"
+      },
+      {
+        "image": "assets/items/img_0728.jpg",
+        "thumb": "assets/thumbs/img_0728.jpg",
+        "original": "IMG_0728"
+      },
+      {
+        "image": "assets/items/img_0729.jpg",
+        "thumb": "assets/thumbs/img_0729.jpg",
+        "original": "IMG_0729"
+      },
+      {
+        "image": "assets/items/img_0731.jpg",
+        "thumb": "assets/thumbs/img_0731.jpg",
+        "original": "IMG_0731"
+      }
+    ],
+    "description": "Decorative upholstery remnant rolls with patterned and textured materials. Useful for accent cushions, small upholstery jobs, crafts, or booth resale.",
+    "notes": [
+      "Patterned and textured rolls visible",
+      "Buyer should confirm exact quantity and lengths",
+      "Bundle with other material lots available"
+    ]
+  },
+  {
+    "id": "marine-upholstery-vinyl-rolls",
+    "title": "Marine-Quality Upholstery Vinyl / Material Rolls",
+    "category": "Sewing & Upholstery",
+    "room": "Sewing / Materials",
+    "price": "$275 OBO for lot",
+    "quantity": 1,
+    "featured": true,
+    "hero": "assets/items/img_0690.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0690.jpg",
+        "thumb": "assets/thumbs/img_0690.jpg",
+        "original": "IMG_0690"
+      },
+      {
+        "image": "assets/items/img_0692.jpg",
+        "thumb": "assets/thumbs/img_0692.jpg",
+        "original": "IMG_0692"
+      },
+      {
+        "image": "assets/items/img_0694.jpg",
+        "thumb": "assets/thumbs/img_0694.jpg",
+        "original": "IMG_0694"
+      },
+      {
+        "image": "assets/items/img_0695.jpg",
+        "thumb": "assets/thumbs/img_0695.jpg",
+        "original": "IMG_0695"
+      },
+      {
+        "image": "assets/items/img_0696.jpg",
+        "thumb": "assets/thumbs/img_0696.jpg",
+        "original": "IMG_0696"
+      },
+      {
+        "image": "assets/items/img_0697.jpg",
+        "thumb": "assets/thumbs/img_0697.jpg",
+        "original": "IMG_0697"
+      },
+      {
+        "image": "assets/items/img_0724.jpg",
+        "thumb": "assets/thumbs/img_0724.jpg",
+        "original": "IMG_0724"
+      },
+      {
+        "image": "assets/items/img_0725.jpg",
+        "thumb": "assets/thumbs/img_0725.jpg",
+        "original": "IMG_0725"
+      },
+      {
+        "image": "assets/items/img_0730.jpg",
+        "thumb": "assets/thumbs/img_0730.jpg",
+        "original": "IMG_0730"
+      },
+      {
+        "image": "assets/items/img_0732.jpg",
+        "thumb": "assets/thumbs/img_0732.jpg",
+        "original": "IMG_0732"
+      }
+    ],
+    "description": "Large upholstery and vinyl material roll lot, with several pieces appearing marine-quality or heavy-duty. Strong opportunity for boat seats, cushions, upholstery repair, craft resale, or a small shop.",
+    "notes": [
+      "Dedicated sewing/upholstery spotlight item",
+      "Several rolls and material types shown",
+      "Most appear heavy-duty; buyer should confirm exact yardage and backing",
+      "Bundle with Singer table and sewing supplies"
+    ]
+  },
+  {
+    "id": "upholstery-fabric-bolt-stack",
+    "title": "Upholstery Fabric Bolt Stack",
+    "category": "Sewing & Upholstery",
+    "room": "Sewing / Materials",
+    "price": "$150 OBO for stack",
+    "quantity": 1,
+    "featured": true,
+    "hero": "assets/items/img_0716.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0716.jpg",
+        "thumb": "assets/thumbs/img_0716.jpg",
+        "original": "IMG_0716"
+      },
+      {
+        "image": "assets/items/img_0717.jpg",
+        "thumb": "assets/thumbs/img_0717.jpg",
+        "original": "IMG_0717"
+      },
+      {
+        "image": "assets/items/img_0718.jpg",
+        "thumb": "assets/thumbs/img_0718.jpg",
+        "original": "IMG_0718"
+      },
+      {
+        "image": "assets/items/img_0719.jpg",
+        "thumb": "assets/thumbs/img_0719.jpg",
+        "original": "IMG_0719"
+      },
+      {
+        "image": "assets/items/img_0720.jpg",
+        "thumb": "assets/thumbs/img_0720.jpg",
+        "original": "IMG_0720"
+      }
+    ],
+    "description": "Stacked upholstery and craft fabrics in multiple colors and textures. Good for chair recovering, pillows, samples, craft projects, and resale bundles.",
+    "notes": [
+      "Multiple colors and textures visible",
+      "Buyer should confirm lengths/yardage",
+      "Good add-on for sewing machine buyers"
+    ]
+  },
+  {
     "id": "brother-1034dx-serger",
     "title": "Brother 1034DX Serger Sewing Machine",
     "category": "Sewing",
     "room": "Sewing / Utility",
-    "price": "$175 OBO",
-    "featured": false,
+    "price": "Free w/ $50+ purchase",
+    "featured": true,
     "hero": "assets/items/img_0554.jpg",
     "photos": [
       {
@@ -1695,12 +2076,14 @@ window.SALE_ITEMS = [
         "original": "IMG_0554"
       }
     ],
-    "description": "Brother 1034DX serger sewing machine with original box shown. Useful for garment finishing, sewing, and craft work.",
+    "description": "Brother 1034DX serger sewing machine with original box shown. Positioned as a high-value doorbuster bonus for buyers spending $50 or more.",
     "notes": [
-      "Model 1034DX visible",
-      "Machine and box shown",
-      "Power/function should be confirmed at sale"
-    ]
+      "Free with $50+ purchase",
+      "Limit 1 free bonus item per customer",
+      "Original box shown",
+      "Good traffic-driver for sewing buyers"
+    ],
+    "freeOffer": "Free with a purchase of $50 or more; limit 1 free bonus item per customer."
   },
   {
     "id": "singer-sewing-machine-table",
@@ -1827,6 +2210,28 @@ window.SALE_ITEMS = [
       "Big Red branding visible",
       "Function/type should be confirmed in person",
       "Priced conservatively for quick pickup"
+    ]
+  },
+  {
+    "id": "chrome-wire-shelving-panels",
+    "title": "Chrome Wire Shelving Panels / Rack Parts",
+    "category": "Garage & Tools",
+    "room": "Garage",
+    "price": "$35 OBO",
+    "quantity": 1,
+    "featured": false,
+    "hero": "assets/items/img_0698.jpg",
+    "photos": [
+      {
+        "image": "assets/items/img_0698.jpg",
+        "thumb": "assets/thumbs/img_0698.jpg",
+        "original": "IMG_0698"
+      }
+    ],
+    "description": "Chrome wire shelving panels or rack parts visible in garage storage. Practical utility item for shelving repair, garage organization, or parts reuse.",
+    "notes": [
+      "Garage utility item",
+      "Buyer should confirm exact parts and dimensions in person"
     ]
   },
   {

@@ -1,5 +1,6 @@
 ﻿const catalog = document.querySelector('#catalog');
 const featuredGrid = document.querySelector('#featuredGrid');
+const sewingSpotlight = document.querySelector('#sewingSpotlight');
 const searchInput = document.querySelector('#search');
 const categorySelect = document.querySelector('#category');
 const listingCount = document.querySelector('#listingCount');
@@ -24,7 +25,7 @@ for (const category of categories) {
 function itemMatches(item) {
   const query = searchInput.value.trim().toLowerCase();
   const category = categorySelect.value;
-  const haystack = [item.title, item.category, item.room, item.price, item.description, ...(item.notes || [])].join(' ').toLowerCase();
+  const haystack = [item.title, item.category, item.room, item.price, item.description, item.freeOffer || '', ...(item.notes || [])].join(' ').toLowerCase();
   return (!query || haystack.includes(query)) && (category === 'all' || item.category === category);
 }
 
@@ -33,6 +34,7 @@ function cardTemplate(item, variant = 'standard') {
     <button class="image-button" type="button" aria-label="View ${item.title}">
       <img loading="lazy" src="${item.hero}" alt="${item.title}" />
       <span class="photo-count">${item.photos.length} photos</span>
+      ${item.freeOffer ? '<span class="free-badge">Free Bonus</span>' : ''}
     </button>
     <div class="item-copy">
       <div class="item-meta"><span>${item.category}</span><span>${item.price}</span></div>
@@ -60,6 +62,22 @@ function renderFeatured() {
   }
 }
 
+function renderSewingSpotlight() {
+  sewingSpotlight.innerHTML = '';
+  const spotlightItems = window.SALE_ITEMS
+    .filter(item => ['Sewing & Upholstery', 'Sewing'].includes(item.category))
+    .filter(item => item.featured || /Singer|Brother|upholstery|marine|fabric/i.test(`${item.title} ${item.description}`))
+    .slice(0, 6);
+
+  for (const item of spotlightItems) {
+    const card = document.createElement('article');
+    card.className = 'item-card spotlight-card';
+    card.innerHTML = cardTemplate(item, 'spotlight');
+    bindCard(card, item);
+    sewingSpotlight.append(card);
+  }
+}
+
 function renderCatalog() {
   const items = window.SALE_ITEMS.filter(itemMatches);
   catalog.innerHTML = '';
@@ -81,9 +99,12 @@ function openDialog(item) {
   dialogHero.alt = item.title;
   dialogCategory.textContent = `${item.category} • ${item.room}`;
   dialogTitle.textContent = item.title;
-  dialogPrice.textContent = `${item.price} — or best offer`;
+  dialogPrice.textContent = item.freeOffer ? item.price : `${item.price} — or best offer`;
   dialogDescription.textContent = item.description;
-  dialogNotes.innerHTML = item.notes.map(note => `<li>${note}</li>`).join('');
+  dialogNotes.innerHTML = [
+    ...(item.freeOffer ? [item.freeOffer] : []),
+    ...(item.notes || [])
+  ].map(note => `<li>${note}</li>`).join('');
   dialogThumbs.innerHTML = '';
   for (const photo of item.photos) {
     const button = document.createElement('button');
@@ -104,5 +125,6 @@ dialog.addEventListener('click', event => {
 searchInput.addEventListener('input', renderCatalog);
 categorySelect.addEventListener('change', renderCatalog);
 renderFeatured();
+renderSewingSpotlight();
 renderCatalog();
 

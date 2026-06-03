@@ -1,4 +1,4 @@
-﻿# GEO Curated Estate Drop
+# GEO Curated Estate Drop
 
 Static GitHub Pages site for GEO's limited-time estate inventory release in Decatur, Alabama.
 
@@ -11,14 +11,14 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Name: GEO
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
-- Timing: All-day access window on Wednesday–Friday and Sunday
+- Timing: All-day access window on Wednesday�Friday and Sunday
 - Pricing: Individual pieces are OBO; bundles are encouraged
 - Whole-house pickup: $6,500 OBO
 
 ## What is included
 
 - Responsive landing page and inventory experience
-- 64 grouped item listings from 189 source photos
+- 75 grouped item listings from 228 source photos
 - Search and category filtering
 - Featured high-interest listings
 - Call and SMS links for GEO
@@ -78,9 +78,11 @@ Expected validation shape:
 ## GitHub Pages
 
 1. Push this repository to GitHub.
-2. Open repository `Settings` → `Pages`.
+2. Open repository `Settings` ? `Pages`.
 3. Set source to `Deploy from a branch`.
 4. Select branch `main` and folder `/root`.
 5. Save and wait for GitHub to publish.
+
+
 
 
