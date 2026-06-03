@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GEO Estate Drop Analytics</title>
+  <link rel="stylesheet" href="analytics.css" />
+</head>
+<body>
+  <main class="dashboard">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Local analytics</p>
+        <h1>GEO Estate Drop Activity</h1>
+        <p>This dashboard reads analytics saved in this browser. GitHub Pages cannot collect all visitor traffic without an external endpoint.</p>
+      </div>
+      <div class="actions">
+        <button id="refresh">Refresh</button>
+        <button id="exportJson">Export JSON</button>
+        <button id="clearData" class="danger">Clear Local Data</button>
+      </div>
+    </header>
+
+    <section class="notice">
+      <strong>Important limit:</strong>
+      <span>These numbers are local to the browser/device that collected them. For aggregate live-site analytics, set `window.GEO_ANALYTICS_ENDPOINT` in `index.html` and point it to a small collector such as a Cloudflare Worker, Supabase function, or Google Apps Script.</span>
+    </section>
+
+    <section class="stats-grid" id="statsGrid"></section>
+
+    <section class="panel-grid">
+      <article class="panel">
+        <h2>Top Events</h2>
+        <div id="eventBreakdown" class="list"></div>
+      </article>
+      <article class="panel">
+        <h2>Popular Items / Buttons</h2>
+        <div id="popularItems" class="list"></div>
+      </article>
+      <article class="panel">
+        <h2>Searches</h2>
+        <div id="searches" class="list"></div>
+      </article>
+      <article class="panel">
+        <h2>Recent Activity</h2>
+        <div id="recentEvents" class="timeline"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const STORAGE_KEY = 'geoEstateAnalytics.v1';
+
+    function readStore() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { events: [] };
+      } catch {
+        return { events: [] };
+      }
+    }
+
+    function countBy(events, selector) {
+      return events.reduce((map, event) => {
+        const key = selector(event) || 'Unknown';
+        map.set(key, (map.get(key) || 0) + 1);
+        return map;
+      }, new Map());
+    }
+
+    function sortedEntries(map) {
+      return [...map.entries()].sort((a, b) => b[1] - a[1]);
+    }
+
+    function formatDuration(seconds) {
+      if (!seconds) return '0s';
+      const minutes = Math.floor(seconds / 60);
+      const remaining = seconds % 60;
+      return minutes ? `${minutes}m ${remaining}s` : `${remaining}s`;
+    }
+
+    function renderList(target, entries, empty = 'No data yet') {
+      target.innerHTML = '';
+      if (!entries.length) {
+        target.innerHTML = `<p class="empty">${empty}</p>`;
+        return;
+      }
+      for (const [label, value] of entries.slice(0, 12)) {
+        const row = document.createElement('div');
+        row.className = 'row';
+        row.innerHTML = `<span>${label}</span><strong>${value}</strong>`;
+        target.append(row);
+      }
+    }
+
+    function render() {
+      const events = readStore().events || [];
+      const sessions = new Set(events.map(event => event.sessionId).filter(Boolean));
+      const pageViews = events.filter(event => event.type === 'page_view').length;
+      const calls = events.filter(event => event.type === 'call_click').length;
+      const texts = events.filter(event => event.type === 'sms_click').length;
+      const sessionEnds = events.filter(event => event.type === 'session_end');
+      const totalSeconds = sessionEnds.reduce((sum, event) => sum + Number(event.data?.seconds || 0), 0);
+      const avgSeconds = sessionEnds.length ? Math.round(totalSeconds / sessionEnds.length) : 0;
+
+      document.querySelector('#statsGrid').innerHTML = [
+        ['Events', events.length],
+        ['Sessions', sessions.size],
+        ['Page Views', pageViews],
+        ['Avg Time', formatDuration(avgSeconds)],
+        ['Call Clicks', calls],
+        ['Text Clicks', texts]
+      ].map(([label, value]) => `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`).join('');
+
+      renderList(document.querySelector('#eventBreakdown'), sortedEntries(countBy(events, event => event.type)));
+      renderList(
+        document.querySelector('#popularItems'),
+        sortedEntries(countBy(events.filter(event => event.data?.item || event.data?.label), event => event.data.item || event.data.label)),
+        'No item/button clicks yet'
+      );
+      renderList(
+        document.querySelector('#searches'),
+        sortedEntries(countBy(events.filter(event => event.type === 'search' && event.data?.query), event => event.data.query)),
+        'No searches yet'
+      );
+
+      const recent = document.querySelector('#recentEvents');
+      recent.innerHTML = '';
+      for (const event of events.slice(-30).reverse()) {
+        const row = document.createElement('div');
+        row.className = 'timeline-row';
+        row.innerHTML = `<strong>${event.type}</strong><span>${new Date(event.timestamp).toLocaleString()}</span><code>${JSON.stringify(event.data || {})}</code>`;
+        recent.append(row);
+      }
+      if (!events.length) recent.innerHTML = '<p class="empty">No events yet. Open the main site in this browser and interact with it.</p>';
+    }
+
+    document.querySelector('#refresh').addEventListener('click', render);
+    document.querySelector('#clearData').addEventListener('click', () => {
+      if (confirm('Clear analytics stored in this browser?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        render();
+      }
+    });
+    document.querySelector('#exportJson').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(readStore(), null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `geo-estate-analytics-${new Date().toISOString().slice(0, 10)}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    render();
+  </script>
+</body>
+</html>

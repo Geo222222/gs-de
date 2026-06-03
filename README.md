@@ -27,6 +27,20 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Contact sheets in `assets/contact/`
 - Clean inventory XLSX and CSV in `outputs/geo-sale-inventory/`
 - Separate road-sign print files in `signs.html` and `outputs/geo-sale-inventory/GEO_Road_Signs_12_Faces.pdf`
+- Local browser analytics in `analytics.html`
+
+## Analytics
+
+The site includes lightweight, privacy-first local analytics through `analytics.js`.
+It records page views, section views, time spent, searches, item inspections, and call/text clicks into browser `localStorage`.
+
+Open:
+
+```text
+http://127.0.0.1:4173/analytics.html
+```
+
+GitHub Pages is static, so local analytics only shows events captured in the browser/device viewing the dashboard. To collect aggregate live visitor data, set `window.GEO_ANALYTICS_ENDPOINT` in `index.html` and point it to a small collector endpoint.
 
 ## Local preview
 
