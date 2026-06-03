@@ -8,7 +8,7 @@ vm.runInNewContext(source, context);
 const items = context.window.SALE_ITEMS;
 const priceNumber = (price) => {
   if (/^free\b/i.test(String(price).trim())) return 0;
-  const match = String(price).match(/\$([0-9,]+)/);
+  const match = String(price).match(/\$([0-9,]+(?:\.[0-9]{1,2})?)/);
   return match ? Number(match[1].replace(/,/g, "")) : 0;
 };
 const csvEscape = (value) => {

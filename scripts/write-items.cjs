@@ -837,11 +837,11 @@ const items = [
   },
   {
     "id": "desktop-music-studio-setup",
-    "title": "Desktop Computer / Music Workstation Setup",
-    "category": "Electronics",
+    "title": "Compact Computer / Music Workstation Desk",
+    "category": "Tables",
     "room": "Office / Studio",
-    "price": "$450 OBO",
-    "featured": true,
+    "price": "$129.99 OBO",
+    "featured": false,
     "hero": "assets/items/img_0605.jpg",
     "photos": [
       {
@@ -855,11 +855,11 @@ const items = [
         "original": "IMG_0606"
       }
     ],
-    "description": "Desk-based computer and music workstation setup with iMac-style display, keyboard, audio gear, speakers, and compact workstation table shown.",
+    "description": "Compact desk shown in the computer/music workstation photos. Only the desk is for sale; computer, monitor, keyboard, audio gear, speakers, and accessories are not included.",
     "notes": [
-      "Bundle pricing is intentionally offer-based",
-      "Exact included electronics should be confirmed before purchase",
-      "Good candidate for call/text questions before visiting"
+      "Desk only - electronics and music gear are not included",
+      "Shown staged with equipment so buyers can understand size and use case",
+      "Good for a small office, music corner, student setup, or compact workstation"
     ]
   },
   {
