@@ -16,7 +16,7 @@ const csvEscape = (value) => {
   return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
 };
 const total = items.reduce((sum, item) => sum + priceNumber(item.price), 0);
-const buyout = 6500;
+const buyout = 5950;
 const workbook = Workbook.create();
 const inventory = workbook.worksheets.add("Inventory");
 const categories = workbook.worksheets.add("Category Summary");
@@ -88,7 +88,7 @@ summary.getRange("A1:B9").values = [
 ];
 summary.getRange("D1:E5").values = [
   ["Pricing Position", "All listed prices are OBO"],
-  ["Recommended Buyout", "$6,500 OBO"],
+  ["Recommended Buyout", "$5,950 OBO"],
   ["Buyer Pitch", "Pick everything up and start with resale-ready inventory"],
   ["Pickup Note", "Buyer handles loading, hauling, and transport"],
   ["Working Sheet", "Use the Inventory tab first"],

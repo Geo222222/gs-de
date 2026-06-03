@@ -11,9 +11,9 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Name: GEO
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
-- Timing: All-day access window on Wednesday–Friday and Sunday
+- Timing: All-day access window on Wednesdayï¿½Friday and Sunday
 - Pricing: Individual pieces are OBO; bundles are encouraged
-- Whole-house pickup: $6,500 OBO
+- Whole-house pickup: $5,950 OBO
 
 ## What is included
 
