@@ -11,9 +11,9 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Name: GEO
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
-- Timing: All-day access window on Wednesday�Friday and Sunday
-- Pricing: Individual pieces are OBO; bundles are encouraged
-- Whole-house pickup: $5,950 OBO
+- Timing: All-day access window on Wednesdayï¿½Friday and Sunday
+- Pricing: Final-days 20% markdown is reflected; individual pieces are still OBO and bundles are encouraged
+- Whole-house pickup: $4,750 OBO
 
 ## What is included
 
@@ -96,7 +96,3 @@ Expected validation shape:
 3. Set source to `Deploy from a branch`.
 4. Select branch `main` and folder `/root`.
 5. Save and wait for GitHub to publish.
-
-
-
-

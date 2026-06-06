@@ -16,7 +16,7 @@ WIDTH, HEIGHT = letter
 SIGNS = [
     ("Scan Before You Stop", "Estate Finds\nToday", "Wed–Fri + Sunday · All Day", "Scan inventory + prices", "GEO · 205-418-8019", "dark", None),
     ("Furniture · Tools · Decor", "Big Local\nEstate Drop", "All Day · OBO Deals", "", "205-418-8019", "yellow", "→"),
-    ("Whole-House Pickup Available", "$5,950\nTakes It All", "Or shop individual items", "Best offer welcome", "Text GEO · 205-418-8019", "cream", None),
+    ("Whole-House Pickup Available", "$4,750\nTakes It All", "Or shop individual items", "Best offer welcome", "Text GEO · 205-418-8019", "cream", None),
     ("Beds · Sofas · Chairs · Decor", "Furniture\nClearout", "Decatur · All Day", "", "205-418-8019", "yellow", "←"),
     ("Don’t Guess From The Road", "Scan The\nInventory", "Photos, prices, categories", "geo222222.github.io/gs-de", "GEO · 205-418-8019", "black", None),
     ("Priced To Move", "Garage\nTools +\nLadders", "OBO · Local Pickup", "", "Text GEO · 205-418-8019", "white", None),

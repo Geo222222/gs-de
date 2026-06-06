@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 const items = [
   {
     "id": "cassette-recorder-bonus",
@@ -191,7 +192,7 @@ const items = [
     "title": "Dark Wood Bed Frame",
     "category": "Bedroom",
     "room": "Bedroom",
-    "price": "$275 OBO",
+    "price": "$220 OBO",
     "featured": false,
     "hero": "assets/items/img_0535.jpg",
     "photos": [
@@ -223,7 +224,7 @@ const items = [
     "title": "Ornate King Bedroom Suite",
     "category": "Bedroom",
     "room": "Primary Bedroom",
-    "price": "$800 OBO",
+    "price": "$640 OBO",
     "featured": true,
     "hero": "assets/items/img_0491.jpg",
     "photos": [
@@ -280,7 +281,7 @@ const items = [
     "title": "Ornate Marble-Top Nightstand",
     "category": "Bedroom",
     "room": "Bedroom",
-    "price": "$125 OBO",
+    "price": "$100 OBO",
     "featured": false,
     "hero": "assets/items/img_0567.jpg",
     "photos": [
@@ -307,7 +308,7 @@ const items = [
     "title": "White Wicker Vanity / Nightstand with Mirror",
     "category": "Bedroom",
     "room": "Bedroom",
-    "price": "$175 OBO",
+    "price": "$140 OBO",
     "featured": false,
     "hero": "assets/items/img_0536.jpg",
     "photos": [
@@ -354,7 +355,7 @@ const items = [
     "title": "Wood Bed Frame - Green Room",
     "category": "Bedroom",
     "room": "Bedroom",
-    "price": "$225 OBO",
+    "price": "$180 OBO",
     "featured": false,
     "hero": "assets/items/img_0543.jpg",
     "photos": [
@@ -386,7 +387,7 @@ const items = [
     "title": "Wood Dresser / Storage Chest",
     "category": "Bedroom",
     "room": "Bedroom",
-    "price": "$175 OBO",
+    "price": "$140 OBO",
     "featured": false,
     "hero": "assets/items/img_0660.jpg",
     "photos": [
@@ -408,7 +409,7 @@ const items = [
     "title": "Carved Upholstered Chaise Lounge",
     "category": "Living Room",
     "room": "Living Room",
-    "price": "$225 OBO",
+    "price": "$180 OBO",
     "featured": true,
     "hero": "assets/items/img_0499.jpg",
     "photos": [
@@ -435,7 +436,7 @@ const items = [
     "title": "Gray Sectional Sofa with Ottoman",
     "category": "Living Room",
     "room": "Living Room",
-    "price": "$350 OBO",
+    "price": "$280 OBO",
     "featured": true,
     "hero": "assets/items/img_0528.jpg",
     "photos": [
@@ -472,7 +473,7 @@ const items = [
     "title": "Red Upholstered Loveseat",
     "category": "Living Room",
     "room": "Living Room",
-    "price": "$175 OBO",
+    "price": "$140 OBO",
     "featured": false,
     "hero": "assets/items/img_0513.jpg",
     "photos": [
@@ -524,7 +525,7 @@ const items = [
     "title": "Black Cushioned Bar Stool",
     "category": "Chairs",
     "room": "Kitchen / Bar",
-    "price": "$55 OBO",
+    "price": "$44 OBO",
     "featured": false,
     "hero": "assets/items/img_0599.jpg",
     "photos": [
@@ -556,7 +557,7 @@ const items = [
     "title": "Cream High-Back Upholstered Chair",
     "category": "Chairs",
     "room": "Bedroom",
-    "price": "$95 OBO",
+    "price": "$76 OBO",
     "featured": false,
     "hero": "assets/items/img_0565.jpg",
     "photos": [
@@ -583,7 +584,7 @@ const items = [
     "title": "Floral Wingback Accent Chair",
     "category": "Chairs",
     "room": "Bedroom / Living Room",
-    "price": "$90 OBO",
+    "price": "$72 OBO",
     "featured": false,
     "hero": "assets/items/img_0516.jpg",
     "photos": [
@@ -620,7 +621,7 @@ const items = [
     "title": "Pair of Scroll Metal Bar Chairs",
     "category": "Chairs",
     "room": "Dining Area",
-    "price": "$120 OBO",
+    "price": "$96 OBO",
     "featured": false,
     "hero": "assets/items/img_0619.jpg",
     "photos": [
@@ -662,7 +663,7 @@ const items = [
     "title": "Patterned Club Chair",
     "category": "Chairs",
     "room": "Living Room",
-    "price": "$125 OBO",
+    "price": "$100 OBO",
     "featured": false,
     "hero": "assets/items/img_0509.jpg",
     "photos": [
@@ -709,7 +710,7 @@ const items = [
     "title": "Tufted Ottoman / Small Bench",
     "category": "Chairs",
     "room": "Living Room",
-    "price": "$65 OBO",
+    "price": "$52 OBO",
     "featured": false,
     "hero": "assets/items/img_0668.jpg",
     "photos": [
@@ -736,7 +737,7 @@ const items = [
     "title": "Wood Frame Rocking Chair",
     "category": "Chairs",
     "room": "Living Room",
-    "price": "$125 OBO",
+    "price": "$100 OBO",
     "featured": false,
     "hero": "assets/items/img_0665.jpg",
     "photos": [
@@ -768,7 +769,7 @@ const items = [
     "title": "Wood-Seat Metal Accent Chair",
     "category": "Chairs",
     "room": "Dining / Entry",
-    "price": "$45 OBO",
+    "price": "$36 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0640.jpg",
@@ -791,7 +792,7 @@ const items = [
     "title": "Oval Glass Coffee Table",
     "category": "Tables",
     "room": "Living Room",
-    "price": "$100 OBO",
+    "price": "$80 OBO",
     "featured": false,
     "hero": "assets/items/img_0504.jpg",
     "photos": [
@@ -818,7 +819,7 @@ const items = [
     "title": "Pair of Small Metal Side Tables",
     "category": "Tables",
     "room": "Living Room",
-    "price": "$60 OBO",
+    "price": "$48 OBO",
     "featured": false,
     "hero": "assets/items/img_0570.jpg",
     "photos": [
@@ -840,7 +841,7 @@ const items = [
     "title": "Compact Computer / Music Workstation Desk",
     "category": "Tables",
     "room": "Office / Studio",
-    "price": "$129.99 OBO",
+    "price": "$104 OBO",
     "featured": false,
     "hero": "assets/items/img_0605.jpg",
     "photos": [
@@ -867,7 +868,7 @@ const items = [
     "title": "GVM LED Video Light Kit",
     "category": "Electronics",
     "room": "Equipment",
-    "price": "$95 OBO",
+    "price": "$76 OBO",
     "featured": false,
     "hero": "assets/items/img_0501.jpg",
     "photos": [
@@ -904,7 +905,7 @@ const items = [
     "title": "HP Flat Panel Monitor",
     "category": "Electronics",
     "room": "Office / Media",
-    "price": "$50 OBO",
+    "price": "$40 OBO",
     "featured": false,
     "hero": "assets/items/img_0639.jpg",
     "photos": [
@@ -931,7 +932,7 @@ const items = [
     "title": "Pair of Floor Speakers",
     "category": "Electronics",
     "room": "Office / Media",
-    "price": "$150 OBO",
+    "price": "$120 OBO",
     "featured": false,
     "hero": "assets/items/img_0601.jpg",
     "photos": [
@@ -997,7 +998,7 @@ const items = [
     "title": "Wall-Mounted Flat Screen TV",
     "category": "Electronics",
     "room": "Media Room",
-    "price": "$100 OBO",
+    "price": "$80 OBO",
     "featured": false,
     "hero": "assets/items/img_0607.jpg",
     "photos": [
@@ -1019,7 +1020,7 @@ const items = [
     "title": "Black Wire Shelving Rack",
     "category": "Storage",
     "room": "Storage Area",
-    "price": "$65 OBO",
+    "price": "$52 OBO",
     "featured": false,
     "hero": "assets/items/img_0610.jpg",
     "photos": [
@@ -1041,7 +1042,7 @@ const items = [
     "title": "Bookcase / Cabinet with Storage",
     "category": "Storage",
     "room": "Office / Study",
-    "price": "$160 OBO",
+    "price": "$128 OBO",
     "featured": false,
     "hero": "assets/items/img_0609.jpg",
     "photos": [
@@ -1068,7 +1069,7 @@ const items = [
     "title": "Brass Scissors Wall Decor",
     "category": "Wall Decor",
     "room": "Hall / Living Areas",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "featured": false,
     "hero": "assets/items/img_0645.jpg",
     "photos": [
@@ -1090,7 +1091,7 @@ const items = [
     "title": "Decorative Metal Tree Wall Panels",
     "category": "Wall Decor",
     "room": "Living Area",
-    "price": "$90 OBO",
+    "price": "$72 OBO",
     "featured": false,
     "hero": "assets/items/img_0643.jpg",
     "photos": [
@@ -1117,7 +1118,7 @@ const items = [
     "title": "Decorative Mirror Collection",
     "category": "Wall Decor",
     "room": "Hall / Living Areas",
-    "price": "$40–$120 OBO",
+    "price": "$32–$96 OBO",
     "featured": false,
     "hero": "assets/items/img_0617.jpg",
     "photos": [
@@ -1164,7 +1165,7 @@ const items = [
     "title": "Framed Wall Art Collection",
     "category": "Wall Decor",
     "room": "Throughout House",
-    "price": "$25–$150 OBO",
+    "price": "$20–$120 OBO",
     "featured": false,
     "hero": "assets/items/img_0614.jpg",
     "photos": [
@@ -1256,7 +1257,7 @@ const items = [
     "title": "Large Abstract Wall Art",
     "category": "Wall Decor",
     "room": "Living Area",
-    "price": "$95 OBO",
+    "price": "$76 OBO",
     "featured": false,
     "hero": "assets/items/img_0651.jpg",
     "photos": [
@@ -1283,7 +1284,7 @@ const items = [
     "title": "Large Decorative Wall Clock",
     "category": "Wall Decor",
     "room": "Bedroom / Living Area",
-    "price": "$55 OBO",
+    "price": "$44 OBO",
     "featured": false,
     "hero": "assets/items/img_0662.jpg",
     "photos": [
@@ -1305,7 +1306,7 @@ const items = [
     "title": "Large Ornate Gold Framed Mirror",
     "category": "Wall Decor",
     "room": "Living Room",
-    "price": "$220 OBO",
+    "price": "$176 OBO",
     "featured": true,
     "hero": "assets/items/img_0547.jpg",
     "photos": [
@@ -1347,7 +1348,7 @@ const items = [
     "title": "Red Metal Flower Wall Art",
     "category": "Wall Decor",
     "room": "Living Area",
-    "price": "$45 OBO",
+    "price": "$36 OBO",
     "featured": false,
     "hero": "assets/items/img_0656.jpg",
     "photos": [
@@ -1374,7 +1375,7 @@ const items = [
     "title": "Rose Wall Panel Art",
     "category": "Wall Decor",
     "room": "Living Room",
-    "price": "$45 OBO",
+    "price": "$36 OBO",
     "featured": false,
     "hero": "assets/items/img_0576.jpg",
     "photos": [
@@ -1396,7 +1397,7 @@ const items = [
     "title": "Round Metal Wall Decor",
     "category": "Wall Decor",
     "room": "Living Room",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "featured": false,
     "hero": "assets/items/img_0560.jpg",
     "photos": [
@@ -1423,7 +1424,7 @@ const items = [
     "title": "Angel Figurine",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$25 OBO",
+    "price": "$20 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0677.jpg",
@@ -1446,7 +1447,7 @@ const items = [
     "title": "Artificial Tree with Plant Stand",
     "category": "Decor",
     "room": "Living Room",
-    "price": "$75 OBO",
+    "price": "$60 OBO",
     "featured": false,
     "hero": "assets/items/img_0530.jpg",
     "photos": [
@@ -1514,7 +1515,7 @@ const items = [
     "title": "Black Angel Statue",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0681.jpg",
@@ -1542,7 +1543,7 @@ const items = [
     "title": "Blue Floral Vase",
     "category": "Decor",
     "room": "Decor / Tabletop",
-    "price": "$20 OBO",
+    "price": "$16 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0711.jpg",
@@ -1565,7 +1566,7 @@ const items = [
     "title": "Family Figurine",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$30 OBO",
+    "price": "$24 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0678.jpg",
@@ -1588,7 +1589,7 @@ const items = [
     "title": "Folding Room Divider Screen",
     "category": "Decor",
     "room": "Living Room",
-    "price": "$85 OBO",
+    "price": "$68 OBO",
     "featured": false,
     "hero": "assets/items/img_0626.jpg",
     "photos": [
@@ -1610,7 +1611,7 @@ const items = [
     "title": "Gold Pineapple Decor Pieces",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$15 each / $45 group OBO",
+    "price": "$12 each / $36 group OBO",
     "quantity": 3,
     "featured": false,
     "hero": "assets/items/img_0685.jpg",
@@ -1648,7 +1649,7 @@ const items = [
     "title": "Gold-Tone Decorative Wreath",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "featured": false,
     "hero": "assets/items/img_0653.jpg",
     "photos": [
@@ -1671,7 +1672,7 @@ const items = [
     "title": "Golden Elephant Figurines",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$15 each / $45 set OBO",
+    "price": "$12 each / $36 set OBO",
     "quantity": 3,
     "featured": false,
     "hero": "assets/items/img_0683.jpg",
@@ -1699,7 +1700,7 @@ const items = [
     "title": "Metal Hourglass Decor",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$25 OBO",
+    "price": "$20 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0675.jpg",
@@ -1722,7 +1723,7 @@ const items = [
     "title": "Mixed Decorative Small Items Lot",
     "category": "Decor",
     "room": "Living Room",
-    "price": "$10–$60 OBO",
+    "price": "$8–$48 OBO",
     "featured": false,
     "hero": "assets/items/img_0579.jpg",
     "photos": [
@@ -1795,7 +1796,7 @@ const items = [
     "title": "Seated Woman Figurine",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$30 OBO",
+    "price": "$24 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0679.jpg",
@@ -1823,7 +1824,7 @@ const items = [
     "title": "Teddy Bear Chair Decor Set",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0674.jpg",
@@ -1846,7 +1847,7 @@ const items = [
     "title": "Vintage-Style Decorative Globe",
     "category": "Decor",
     "room": "Living Area",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0676.jpg",
@@ -1869,7 +1870,7 @@ const items = [
     "title": "Floor Lamp & Table Lamp Decor",
     "category": "Lighting",
     "room": "Living Areas",
-    "price": "$75 OBO",
+    "price": "$60 OBO",
     "featured": false,
     "hero": "assets/items/img_0646.jpg",
     "photos": [
@@ -1907,7 +1908,7 @@ const items = [
     "title": "Decorative Upholstery Remnant Rolls",
     "category": "Sewing & Upholstery",
     "room": "Sewing / Materials",
-    "price": "$125 OBO for lot",
+    "price": "$100 OBO for lot",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0727.jpg",
@@ -1950,7 +1951,7 @@ const items = [
     "title": "Marine-Quality Upholstery Vinyl / Material Rolls",
     "category": "Sewing & Upholstery",
     "room": "Sewing / Materials",
-    "price": "$275 OBO for lot",
+    "price": "$220 OBO for lot",
     "quantity": 1,
     "featured": true,
     "hero": "assets/items/img_0690.jpg",
@@ -2019,7 +2020,7 @@ const items = [
     "title": "Upholstery Fabric Bolt Stack",
     "category": "Sewing & Upholstery",
     "room": "Sewing / Materials",
-    "price": "$150 OBO for stack",
+    "price": "$120 OBO for stack",
     "quantity": 1,
     "featured": true,
     "hero": "assets/items/img_0716.jpg",
@@ -2091,7 +2092,7 @@ const items = [
     "title": "Singer Sewing Machine with Table",
     "category": "Sewing",
     "room": "Sewing / Utility",
-    "price": "$450 OBO",
+    "price": "$360 OBO",
     "featured": true,
     "hero": "assets/items/img_0624.jpg",
     "photos": [
@@ -2128,7 +2129,7 @@ const items = [
     "title": "Dollhouse Playset with Accessories",
     "category": "Kids & Toys",
     "room": "Bedroom",
-    "price": "$60 OBO",
+    "price": "$48 OBO",
     "featured": false,
     "hero": "assets/items/img_0545.jpg",
     "photos": [
@@ -2150,7 +2151,7 @@ const items = [
     "title": "Kids Play Kitchen Set",
     "category": "Kids & Toys",
     "room": "Kids Room",
-    "price": "$80 OBO",
+    "price": "$64 OBO",
     "featured": false,
     "hero": "assets/items/img_0661.jpg",
     "photos": [
@@ -2172,7 +2173,7 @@ const items = [
     "title": "Additional Ladders / Step Ladders",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$60 OBO for group",
+    "price": "$48 OBO for group",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0585.jpg",
@@ -2195,7 +2196,7 @@ const items = [
     "title": "Big Red Mechanic / Utility Item",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$40 OBO",
+    "price": "$32 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0587.jpg",
@@ -2218,7 +2219,7 @@ const items = [
     "title": "Chrome Wire Shelving Panels / Rack Parts",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0698.jpg",
@@ -2240,7 +2241,7 @@ const items = [
     "title": "Cleaning Tools / Broom Lot",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$20 OBO",
+    "price": "$16 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0591.jpg",
@@ -2263,7 +2264,7 @@ const items = [
     "title": "Garage Hoses / Tubing Lot",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$35 OBO",
+    "price": "$28 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0586.jpg",
@@ -2286,7 +2287,7 @@ const items = [
     "title": "Garage Household Overflow Lot",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$25 OBO",
+    "price": "$20 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0584.jpg",
@@ -2319,7 +2320,7 @@ const items = [
     "title": "Multi-Drawer Parts Organizer / Storage Cabinet",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$45 OBO",
+    "price": "$36 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0589.jpg",
@@ -2342,7 +2343,7 @@ const items = [
     "title": "Werner Extension Ladder",
     "category": "Garage & Tools",
     "room": "Garage",
-    "price": "$140 OBO",
+    "price": "$112 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0590.jpg",
@@ -2365,7 +2366,7 @@ const items = [
     "title": "Outdoor Planters & Yard Items",
     "category": "Outdoor",
     "room": "Outside",
-    "price": "$15–$85 OBO",
+    "price": "$12–$68 OBO",
     "featured": false,
     "hero": "assets/items/img_0594.jpg",
     "photos": [
@@ -2407,7 +2408,7 @@ const items = [
     "title": "Folding Ironing Board",
     "category": "Household",
     "room": "Utility / Bedroom",
-    "price": "$25 OBO",
+    "price": "$20 OBO",
     "featured": false,
     "hero": "assets/items/img_0657.jpg",
     "photos": [
@@ -2425,5 +2426,5 @@ const items = [
     ]
   }
 ];
-fs.writeFileSync('items.js', `window.SALE_ITEMS = ${JSON.stringify(items, null, 2)};\n`, 'utf8');
-console.log(`wrote ${items.length} grouped listings`);
+
+fs.writeFileSync('items.js', `window.SALE_ITEMS = ${JSON.stringify(items, null, 2)};\n`);
