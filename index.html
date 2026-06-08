@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GEO Curated Estate Drop | Decatur, Alabama</title>
-  <meta name="description" content="A limited-time Decatur estate drop curated by GEO: furniture, decor, electronics, sewing pieces, garage finds, outdoor items, and a full-house buyout opportunity. Call or message 205-418-8019." />
-  <meta property="og:title" content="GEO Curated Estate Drop | Decatur, Alabama" />
-  <meta property="og:description" content="One house. Dozens of ready-to-move finds. Storage-ready resale pricing, individual OBO deals, or a full-house buyout at $4,000 OBO. Call or message GEO at 205-418-8019." />
+  <title>GEO Inventory Sale | Decatur, Alabama</title>
+  <meta name="description" content="Browse GEO's Decatur inventory sale by product: furniture, decor, electronics, sewing equipment, upholstery material, garage items, and household finds. Call or message 205-418-8019." />
+  <meta property="og:title" content="GEO Inventory Sale | Decatur, Alabama" />
+  <meta property="og:description" content="Product-first inventory catalog for Decatur buyers. Browse photos, prices, categories, and item details. Call or message GEO at 205-418-8019." />
   <meta property="og:image" content="assets/items/img_0528.jpg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -20,122 +20,56 @@
       <span style="--slide:url('assets/items/img_0708.jpg')"></span>
     </div>
     <nav class="nav" aria-label="Primary">
-      <a class="brand" href="#top"><span>GEO</span><small>Estate Drop</small></a>
+      <a class="brand" href="#top"><span>GEO</span><small>Inventory Sale</small></a>
       <div class="nav-links">
-        <a href="#featured">Best Finds</a>
-        <a href="#sewing">Sewing</a>
-        <a href="#freebies">Free Bonuses</a>
         <a href="#items">Inventory</a>
+        <a href="#sewing">Sewing</a>
+        <a href="#featured">Featured</a>
         <a href="#contact">Text GEO</a>
       </div>
     </nav>
 
-    <section class="hero-grid">
+    <section class="hero-grid product-hero">
       <div class="hero-copy">
-        <p class="eyebrow">Decatur, Alabama - Limited-time estate release</p>
-        <h1>Walk in with a truck. Leave with a room, a flip, or a whole inventory.</h1>
-        <p class="lead">Storage-ready resale pricing: strong furniture, sewing equipment, and standout decor are priced for fair value, with OBO room for serious buyers and bundles.</p>
+        <p class="eyebrow">Decatur, Alabama inventory catalog</p>
+        <h1>Browse the items first.</h1>
+        <p class="lead">Furniture, decor, electronics, sewing equipment, upholstery material, garage items, and household pieces are organized with photos, prices, categories, and item details.</p>
         <div class="hero-actions">
-          <a class="button primary" href="tel:12054188019">Call GEO</a>
-          <a class="button ghost" href="sms:12054188019">Text 205-418-8019</a>
-          <a class="button quiet" href="#items">See the finds</a>
+          <a class="button primary" href="#items">Open inventory</a>
+          <a class="button ghost" href="sms:12054188019">Text GEO</a>
+          <a class="button quiet" href="tel:12054188019">Call 205-418-8019</a>
         </div>
       </div>
 
-      <aside class="glass-card contact-card" id="contact" aria-label="Estate drop contact and details">
-        <div class="pulse-dot"></div>
-        <p class="eyebrow">Direct Access</p>
-        <h2>GEO</h2>
-        <a class="phone" href="tel:12054188019">205-418-8019</a>
-        <p>Decatur, Alabama</p>
-        <p>All-day availability. Text first for directions, current availability, bundle pricing, or the full-house pickup deal.</p>
-        <div class="mini-grid">
-          <span>Open Window</span>
-          <span>Best Strategy</span>
-          <strong>Wed-Fri + Sun</strong>
-          <strong>Bundle & Save</strong>
+      <aside class="glass-card hero-inventory-panel" aria-label="Inventory preview">
+        <div class="panel-head">
+          <p class="eyebrow">Inventory preview</p>
+          <a href="#items">View all</a>
         </div>
+        <div class="hero-product-grid" id="heroProductGrid"></div>
       </aside>
     </section>
   </header>
 
   <main>
     <section class="stats-strip" aria-label="Estate drop highlights">
-      <div><strong id="listingCount">75</strong><span>Curated listings</span></div>
-      <div><strong>OBO</strong><span>Serious offers</span></div>
-      <div><strong>All Day</strong><span>Text before you come</span></div>
-      <div><strong>Pickup</strong><span>Bring loading help</span></div>
-      <div><strong>$4,000</strong><span>Take everything OBO</span></div>
+      <div><strong id="listingCount">75</strong><span>Product listings</span></div>
+      <div><strong>Photos</strong><span>Multiple item views</span></div>
+      <div><strong>OBO</strong><span>Prices negotiable</span></div>
+      <div><strong>Decatur</strong><span>Local pickup</span></div>
+      <div><strong>GEO</strong><span>205-418-8019</span></div>
     </section>
 
-    <section class="section split-intro">
-      <div>
-        <p class="eyebrow">For decorators, families, resellers, and deal hunters</p>
-        <h2>A full-house opportunity, organized for fast decisions.</h2>
-      </div>
-      <p>This is for people who can recognize value quickly: bedroom sets, seating, mirrors, framed art, lamps, sewing machines, electronics, tools, and decor that can go straight into a room, a rental, a booth, or a resale run.</p>
-    </section>
-
-    <section class="section featured" id="featured">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">Start here</p>
-          <h2>High-leverage finds</h2>
-        </div>
-        <a class="text-link" href="#items">View full inventory</a>
-      </div>
-      <div class="featured-grid" id="featuredGrid"></div>
-    </section>
-
-    <section class="section spotlight sewing-spotlight" id="sewing" aria-label="Sewing and upholstery spotlight">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">Dedicated spotlight</p>
-          <h2>Sewing machines, marine-quality upholstery material, and workshop-ready supplies.</h2>
-        </div>
-        <a class="text-link" href="#items">Search sewing inventory</a>
-      </div>
-      <div class="spotlight-grid">
-        <div class="spotlight-copy">
-          <p>This is one of the strongest niche bundles in the house: the Singer table setup, Brother serger bonus, upholstery rolls, fabric stacks, ironing board, and sewing-themed decor. Good for hobbyists, boat-seat repair, cushion work, craft resale, or someone building a small upholstery setup.</p>
-          <ul>
-            <li>Marine-quality and heavy-duty materials are grouped for fast inspection.</li>
-            <li>Machines, fabric, rolls, and utility add-ons can be bundled.</li>
-            <li>Brother serger is free with a $50+ purchase while available.</li>
-          </ul>
-        </div>
-        <div class="spotlight-items" id="sewingSpotlight"></div>
-      </div>
-    </section>
-
-    <section class="section deal-banner freebie-banner" id="freebies" aria-label="Free with purchase bonus items">
-      <div>
-        <p class="eyebrow">Traffic-driver bonuses</p>
-        <h2>Free bonus items with purchase - one per customer.</h2>
-      </div>
-      <p>These are designed to reward people who show up and buy. Vizio sound bar is free with $10+ purchase, vinyl player is free with $30+ purchase, Brother serger is free with $50+ purchase, and the smaller bonus items are free with $5+ purchase. One free item per customer, while available.</p>
-      <a class="button primary" href="sms:12054188019">Text GEO about bonus availability</a>
-    </section>
-
-    <section class="section deal-banner" aria-label="Whole-house buyout offer">
-      <div>
-        <p class="eyebrow">Best deal for resellers or movers</p>
-        <h2>Want the whole house? Take everything for $4,000 OBO.</h2>
-      </div>
-      <p>One buyer, one pickup plan, one clean sweep. Individual pieces are priced for resale value, but $4,000 OBO is the aggressive take-all number for someone who can move quickly and haul everything.</p>
-      <a class="button primary" href="sms:12054188019">Text GEO about the buyout</a>
-    </section>
-
-    <section class="section catalog-shell" id="items">
+    <section class="section catalog-shell product-first" id="items">
       <div class="section-head controls-head">
         <div>
           <p class="eyebrow">Live inventory</p>
-          <h2>Pick your angle</h2>
+          <h2>Shop by product.</h2>
         </div>
         <div class="controls" aria-label="Inventory filters">
           <div class="search-wrap">
             <label for="search">Search</label>
-            <input id="search" type="search" placeholder="king bed, Singer, upholstery, free bonus-" />
+            <input id="search" type="search" placeholder="king bed, Singer, upholstery, ladder, mirror" />
           </div>
           <div class="filter-wrap">
             <label for="category">Category</label>
@@ -145,10 +79,54 @@
       </div>
       <div class="catalog" id="catalog" aria-live="polite"></div>
     </section>
+
+    <section class="section featured" id="featured">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Featured products</p>
+          <h2>Items worth inspecting first.</h2>
+        </div>
+        <a class="text-link" href="#items">Back to inventory</a>
+      </div>
+      <div class="featured-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="section spotlight sewing-spotlight" id="sewing" aria-label="Sewing and upholstery spotlight">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Sewing and upholstery</p>
+          <h2>Machines, marine-quality material, rolls, fabric, and utility pieces.</h2>
+        </div>
+        <a class="text-link" href="#items">Search full inventory</a>
+      </div>
+      <div class="spotlight-grid">
+        <div class="spotlight-copy">
+          <p>This section groups the sewing and upholstery inventory together so buyers can inspect machines, material, rolls, fabric, and utility pieces without digging through the full catalog.</p>
+          <ul>
+            <li>Marine-quality and heavy-duty materials are grouped for fast inspection.</li>
+            <li>Machines, fabric, rolls, and utility add-ons are listed as individual products.</li>
+            <li>Text GEO with the item name if you want current availability.</li>
+          </ul>
+        </div>
+        <div class="spotlight-items" id="sewingSpotlight"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Ask about a specific item.</h2>
+      </div>
+      <p>Text the item name to GEO for availability, pickup timing, and OBO discussion. Local pickup in Decatur, Alabama.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="sms:12054188019">Text GEO</a>
+        <a class="button ghost dark" href="tel:12054188019">Call 205-418-8019</a>
+      </div>
+    </section>
   </main>
 
   <dialog id="itemDialog" class="dialog">
-    <button class="dialog-close" type="button" aria-label="Close item details">-</button>
+    <button class="dialog-close" type="button" aria-label="Close item details">×</button>
     <div class="dialog-grid">
       <div class="dialog-media">
         <img id="dialogHero" alt="" />
@@ -169,8 +147,8 @@
   </dialog>
 
   <footer class="footer">
-    <strong>GEO Curated Estate Drop - Decatur, Alabama</strong>
-    <span>Text or call <a href="tel:12054188019">205-418-8019</a>. Individual finds, room bundles, and full-house pickup offers considered.</span>
+    <strong>GEO Inventory Sale - Decatur, Alabama</strong>
+    <span>Text or call <a href="tel:12054188019">205-418-8019</a>. Browse the catalog, then ask about the items you want to inspect.</span>
   </footer>
 
   <script src="items.js"></script>

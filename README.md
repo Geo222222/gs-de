@@ -1,10 +1,10 @@
-# GEO Curated Estate Drop
+# GEO Inventory Sale
 
-Static GitHub Pages site for GEO's limited-time estate inventory release in Decatur, Alabama.
+Static GitHub Pages product catalog for GEO's inventory sale in Decatur, Alabama.
 
 ## Positioning
 
-The site positions the offer as a curated estate drop for decorators, families, resellers, deal hunters, and anyone who can move quickly with pickup.
+The site focuses on the product inventory first: photos, categories, prices, and item details for buyers who want to browse before contacting GEO.
 
 ## Contact
 
@@ -12,8 +12,7 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
 - Timing: All-day access window on Wednesdayï¿½Friday and Sunday
-- Pricing: Strong pieces are priced for resale value; weak bulky/misc items stay discounted, smalls are bundled, and OBO offers are encouraged
-- Whole-house pickup: $4,000 OBO
+- Pricing: Product-first inventory pricing; individual items and item groups are OBO
 
 ## What is included
 

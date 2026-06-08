@@ -2,11 +2,11 @@ const fs = require('fs');
 
 const items = [
   {
-    "id": "cassette-recorder-bonus",
-    "title": "Cassette Recorder Bonus",
-    "category": "Free Bonus",
+    "id": "portable-cassette-recorder",
+    "title": "Portable Cassette Recorder",
+    "category": "Electronics",
     "room": "Electronics",
-    "price": "Free w/ $5+ purchase",
+    "price": "$10 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0715.jpg",
@@ -17,21 +17,18 @@ const items = [
         "original": "IMG_0715"
       }
     ],
-    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
-    "description": "Portable cassette recorder offered as a nostalgic add-on bonus for buyers making a $5+ purchase.",
+    "description": "Portable cassette recorder",
     "notes": [
-      "Free with $5+ purchase",
-      "Limit 1 free bonus item per customer",
       "Automatic stop label visible",
       "Function should be confirmed in person"
     ]
   },
   {
-    "id": "ceramic-chicken-rooster-bonus",
-    "title": "Ceramic Chicken / Rooster Decor Bonus",
-    "category": "Free Bonus",
+    "id": "ceramic-chicken-rooster-decor",
+    "title": "Ceramic Chicken / Rooster Decor",
+    "category": "Decor",
     "room": "Decor",
-    "price": "Free w/ $5+ purchase",
+    "price": "$15 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0712.jpg",
@@ -47,20 +44,18 @@ const items = [
         "original": "IMG_0713"
       }
     ],
-    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
-    "description": "Kitchen-style ceramic chicken/rooster decor offered as a light, easy bonus item with a $5+ purchase.",
+    "description": "Kitchen-style ceramic chicken/rooster decor",
     "notes": [
-      "Free with $5+ purchase",
-      "Limit 1 free bonus item per customer",
-      "White chicken and rooster photos included"
+      "White chicken and rooster photos included",
+      "Good kitchen decor piece"
     ]
   },
   {
-    "id": "dvd-player-bonus",
-    "title": "DVD Player Bonus",
-    "category": "Free Bonus",
+    "id": "dvd-player",
+    "title": "DVD Player",
+    "category": "Electronics",
     "room": "Electronics",
-    "price": "Free w/ $5+ purchase",
+    "price": "$10 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0714.jpg",
@@ -81,20 +76,18 @@ const items = [
         "original": "IMG_0044"
       }
     ],
-    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
-    "description": "Black DVD player offered as a simple bonus item for buyers making a $5+ purchase.",
+    "description": "Black DVD player",
     "notes": [
-      "Free with $5+ purchase",
-      "Limit 1 free bonus item per customer",
-      "Function/cables should be confirmed in person"
+      "Function/cables should be confirmed in person",
+      "Good low-cost media add-on"
     ]
   },
   {
-    "id": "gray-felt-bag-bonus",
-    "title": "Gray Felt Bag Bonus",
-    "category": "Free Bonus",
+    "id": "gray-felt-bag",
+    "title": "Gray Felt Bag",
+    "category": "Accessories",
     "room": "Accessories",
-    "price": "Free w/ $5+ purchase",
+    "price": "$10 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0722.jpg",
@@ -110,20 +103,18 @@ const items = [
         "original": "IMG_0723"
       }
     ],
-    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
-    "description": "Gray felt bag shown from front and back. Offered as a bonus item for a buyer making a $5+ purchase.",
+    "description": "Gray felt bag shown from front and back.",
     "notes": [
-      "Free with $5+ purchase",
-      "Limit 1 free bonus item per customer",
-      "Front and back photos included"
+      "Front and back photos included",
+      "Inspect condition in person"
     ]
   },
   {
-    "id": "red-quilted-bag-bonus",
-    "title": "Red Quilted Bag Bonus",
-    "category": "Free Bonus",
+    "id": "red-quilted-bag",
+    "title": "Red Quilted Bag",
+    "category": "Accessories",
     "room": "Accessories",
-    "price": "Free w/ $5+ purchase",
+    "price": "$10 OBO",
     "quantity": 1,
     "featured": false,
     "hero": "assets/items/img_0721.jpg",
@@ -134,20 +125,18 @@ const items = [
         "original": "IMG_0721"
       }
     ],
-    "freeOffer": "Free with a purchase of $5 or more; limit 1 free bonus item per customer.",
-    "description": "Red quilted bag with gray/faux-fur trim offered as a bonus item for a buyer making a $5+ purchase.",
+    "description": "Red quilted bag with gray/faux-fur trim",
     "notes": [
-      "Free with $5+ purchase",
-      "Limit 1 free bonus item per customer",
+      "Quilted red bag with gray/faux-fur trim",
       "Inspect condition in person"
     ]
   },
   {
-    "id": "vizio-sound-bar-bonus",
-    "title": "Vizio Sound Bar Bonus",
-    "category": "Free Bonus",
+    "id": "vizio-sound-bar",
+    "title": "Vizio Sound Bar",
+    "category": "Electronics",
     "room": "Electronics",
-    "price": "Free w/ $10+ purchase",
+    "price": "$25 OBO",
     "quantity": 1,
     "featured": true,
     "hero": "assets/items/img_0038.jpg",
@@ -178,11 +167,8 @@ const items = [
         "original": "IMG_0042"
       }
     ],
-    "freeOffer": "Free with a purchase of $10 or more; limit 1 free bonus item per customer.",
-    "description": "Vizio sound bar with multiple detail photos. A practical electronics bonus designed to make small purchases feel more valuable.",
+    "description": "Vizio sound bar with multiple detail photos. A compact sound bar for a TV, media room, office, or secondary audio setup.",
     "notes": [
-      "Free with $10+ purchase",
-      "Limit 1 free bonus item per customer",
       "Vizio branding visible",
       "Buyer should confirm cables/accessories in person"
     ]
@@ -273,7 +259,7 @@ const items = [
     "notes": [
       "King bed suite; corrected from earlier queen label",
       "Suggested price is for the grouped suite; individual offers considered",
-      "Buyer pickup required; bring truck and loading help"
+      "Buyer pickup required; bring loading help"
     ]
   },
   {
@@ -832,8 +818,7 @@ const items = [
     "description": "Pair of small metal side/accent tables with light tops and slender frames. Useful as plant stands or compact end tables.",
     "notes": [
       "Pair shown",
-      "Compact footprint",
-      "Good add-on purchase"
+      "Compact footprint"
     ]
   },
   {
@@ -954,7 +939,7 @@ const items = [
     "title": "Retro Record Player / Media Console",
     "category": "Electronics",
     "room": "Living Room",
-    "price": "Free w/ $30+ purchase",
+    "price": "$50 OBO",
     "featured": false,
     "hero": "assets/items/img_0708.jpg",
     "photos": [
@@ -984,14 +969,11 @@ const items = [
         "original": "IMG_0621"
       }
     ],
-    "description": "Victrola-style vinyl/record player console with wood-look case and built-in controls. Offered as a strong bonus item for buyers spending $30 or more.",
+    "description": "Victrola-style vinyl/record player console with wood-look case and built-in controls.",
     "notes": [
-      "Free with $30+ purchase",
-      "Limit 1 free bonus item per customer",
-      "Vinyl player shown open and close-up",
+      "Wood-look case with built-in controls",
       "Function should be confirmed in person"
-    ],
-    "freeOffer": "Free with a purchase of $30 or more; limit 1 free bonus item per customer."
+    ]
   },
   {
     "id": "wall-mounted-tv",
@@ -1714,8 +1696,7 @@ const items = [
     "description": "Metal-frame hourglass decor piece. Good bookshelf, office, console, or tabletop accent.",
     "notes": [
       "One hourglass shown",
-      "Decorative tabletop scale",
-      "Easy add-on purchase"
+      "Decorative tabletop scale"
     ]
   },
   {
@@ -2063,7 +2044,7 @@ const items = [
     "title": "Brother 1034DX Serger Sewing Machine",
     "category": "Sewing",
     "room": "Sewing / Utility",
-    "price": "Free w/ $50+ purchase",
+    "price": "$175 OBO",
     "featured": true,
     "hero": "assets/items/img_0554.jpg",
     "photos": [
@@ -2078,14 +2059,12 @@ const items = [
         "original": "IMG_0554"
       }
     ],
-    "description": "Brother 1034DX serger sewing machine with original box shown. Positioned as a high-value doorbuster bonus for buyers spending $50 or more.",
+    "description": "Brother 1034DX serger sewing machine with original box shown.",
     "notes": [
-      "Free with $50+ purchase",
-      "Limit 1 free bonus item per customer",
       "Original box shown",
-      "Good traffic-driver for sewing buyers"
-    ],
-    "freeOffer": "Free with a purchase of $50 or more; limit 1 free bonus item per customer."
+      "Good sewing setup item",
+      "Function should be confirmed in person"
+    ]
   },
   {
     "id": "singer-sewing-machine-table",
@@ -2120,8 +2099,7 @@ const items = [
     "description": "Singer sewing machine mounted in a work table with foot pedal and close-up machine photos. Higher-value sewing setup for a hobbyist, collector, or resale buyer.",
     "notes": [
       "Singer branding visible",
-      "Table and machine shown",
-      "Test/function status should be confirmed before purchase"
+      "Table and machine shown"
     ]
   },
   {

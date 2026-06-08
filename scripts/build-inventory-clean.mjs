@@ -7,7 +7,6 @@ const context = { window: {} };
 vm.runInNewContext(source, context);
 const items = context.window.SALE_ITEMS;
 const priceNumber = (price) => {
-  if (/^free\b/i.test(String(price).trim())) return 0;
   const match = String(price).match(/\$([0-9,]+(?:\.[0-9]{1,2})?)/);
   return match ? Number(match[1].replace(/,/g, "")) : 0;
 };
@@ -16,7 +15,6 @@ const csvEscape = (value) => {
   return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
 };
 const total = items.reduce((sum, item) => sum + priceNumber(item.price), 0);
-const buyout = 4000;
 const workbook = Workbook.create();
 const inventory = workbook.worksheets.add("Inventory");
 const categories = workbook.worksheets.add("Category Summary");
@@ -76,20 +74,20 @@ const categoryRows = [...categoryMap.entries()].sort((a,b)=>b[1].ask-a[1].ask).m
 categories.getRange(`A1:C${categoryRows.length + 1}`).values = [["Category","Listings","Base Asking Total"], ...categoryRows];
 
 summary.getRange("A1:B9").values = [
-  ["GEO Curated Estate Drop Inventory", ""],
+  ["GEO Inventory Sale", ""],
   ["Contact", "GEO"],
   ["Phone", "205-418-8019"],
   ["Location", "Decatur, Alabama"],
   ["Sale Timing", "All-day event; call or message for info"],
   ["Listings", items.length],
   ["Base Asking Total", total],
-  ["Whole-House Buyout", buyout],
+  ["Catalog Focus", "Individual products and item groups"],
   ["Quantity Note", "Update quantities directly on the Inventory sheet"],
 ];
 summary.getRange("D1:E5").values = [
-  ["Pricing Position", "Strategic storage/resale pricing: strong pieces raised, weak bulky items discounted, smalls bundled, all OBO"],
-  ["Recommended Buyout", "$4,000 OBO"],
-  ["Buyer Pitch", "Pick everything up and start with resale-ready inventory"],
+  ["Pricing Position", "Product-first inventory pricing; individual items and item groups are OBO"],
+  ["Inventory Note", "Text GEO with the exact item name for availability"],
+  ["Buyer Pitch", "Browse photos, inspect item details, then ask about specific products"],
   ["Pickup Note", "Buyer handles loading, hauling, and transport"],
   ["Working Sheet", "Use the Inventory tab first"],
 ];
