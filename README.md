@@ -12,8 +12,8 @@ The site positions the offer as a curated estate drop for decorators, families, 
 - Phone: 205-418-8019
 - Location: Decatur, Alabama
 - Timing: All-day access window on Wednesdayï¿½Friday and Sunday
-- Pricing: Final-days 20% markdown is reflected; individual pieces are still OBO and bundles are encouraged
-- Whole-house pickup: $4,750 OBO
+- Pricing: Strong pieces are priced for resale value; weak bulky/misc items stay discounted, smalls are bundled, and OBO offers are encouraged
+- Whole-house pickup: $4,000 OBO
 
 ## What is included
 
