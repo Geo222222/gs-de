@@ -19,8 +19,8 @@ const items = [
     ],
     "description": "Portable cassette recorder",
     "notes": [
-      "Automatic stop label visible",
-      "Function should be confirmed in person"
+      "Portable cassette recorder with visible controls",
+      "Condition and operation available at inspection"
     ]
   },
   {
@@ -78,7 +78,7 @@ const items = [
     ],
     "description": "Black DVD player",
     "notes": [
-      "Function/cables should be confirmed in person",
+      "Cables and operation available at inspection",
       "Good low-cost media add-on"
     ]
   },
@@ -170,7 +170,7 @@ const items = [
     "description": "Vizio sound bar with multiple detail photos. A compact sound bar for a TV, media room, office, or secondary audio setup.",
     "notes": [
       "Vizio branding visible",
-      "Buyer should confirm cables/accessories in person"
+      "Cables and accessories available as shown"
     ]
   },
   {
@@ -257,7 +257,7 @@ const items = [
     ],
     "description": "Large coordinated king bedroom suite with carved wood styling, upholstered/nailhead headboard detail, matching dresser and bedside storage. Best for a buyer furnishing a full room at once.",
     "notes": [
-      "King bed suite; corrected from earlier queen label",
+      "King bedroom suite",
       "Suggested price is for the grouped suite; individual offers considered",
       "Buyer pickup required; bring loading help"
     ]
@@ -386,7 +386,7 @@ const items = [
     "description": "Wood dresser/storage chest shown with decorative items. Useful bedroom storage piece with traditional styling.",
     "notes": [
       "Dresser/storage piece",
-      "Decor on top not automatically included",
+      "Decor shown separately from furniture listing",
       "Buyer pickup required"
     ]
   },
@@ -747,7 +747,7 @@ const items = [
     "notes": [
       "Rocking chair shown from multiple angles",
       "Light patterned upholstery",
-      "Buyer should inspect fabric and rocker condition in person"
+      "Fabric and rocker condition shown in photos"
     ]
   },
   {
@@ -882,7 +882,7 @@ const items = [
     "notes": [
       "GVM light panel visible",
       "Stand shown",
-      "Function/accessories should be confirmed at sale"
+      "Accessories and operation available at inspection"
     ]
   },
   {
@@ -908,7 +908,7 @@ const items = [
     "description": "HP flat panel monitor with stand shown. Useful as a computer display, secondary monitor, or simple office setup.",
     "notes": [
       "HP label/details visible in photos",
-      "Buyer should confirm inputs and test if needed",
+      "Inputs and display condition available at inspection",
       "Priced for quick local pickup"
     ]
   },
@@ -930,7 +930,7 @@ const items = [
     "description": "Pair of tall black floor speakers. Suitable for stereo, media room, or music setup depending on receiver compatibility.",
     "notes": [
       "Pair shown",
-      "Buyer should test/confirm model and connections",
+      "Model and connections available at inspection",
       "Priced as OBO"
     ]
   },
@@ -972,7 +972,7 @@ const items = [
     "description": "Victrola-style vinyl/record player console with wood-look case and built-in controls.",
     "notes": [
       "Wood-look case with built-in controls",
-      "Function should be confirmed in person"
+      "Condition and operation available at inspection"
     ]
   },
   {
@@ -993,7 +993,7 @@ const items = [
     "description": "Flat screen TV mounted on the wall. Good media-room item if buyer wants a simple local pickup deal.",
     "notes": [
       "Confirm size/model in person",
-      "Mount/accessories not guaranteed unless confirmed",
+      "Mount and accessories available as shown",
       "Call or message for details"
     ]
   },
@@ -1041,7 +1041,7 @@ const items = [
     ],
     "description": "Tall bookcase cabinet with open shelves and lower cabinet storage. Useful for books, office supplies, or display.",
     "notes": [
-      "Books/accessories not automatically included",
+      "Books and accessories shown separately from furniture listing",
       "Lower cabinet storage",
       "Buyer pickup required"
     ]
@@ -1231,7 +1231,7 @@ const items = [
     "notes": [
       "Multiple framed pieces shown",
       "Bundle offers welcome",
-      "Glass/frame condition should be inspected"
+      "Glass and frame condition shown in photos"
     ]
   },
   {
@@ -1622,7 +1622,7 @@ const items = [
     "description": "Gold-tone pineapple decor pieces with textured metallic finish. Strong accent pieces for table, shelf, entry, or tropical glam decor.",
     "notes": [
       "Quantity inferred from photos: 3 pieces",
-      "Buyer can confirm exact group in person",
+      "Group shown in photos",
       "Bundle-friendly decor item"
     ]
   },
@@ -1768,7 +1768,7 @@ const items = [
     "notes": [
       "Individual offers welcome",
       "Bundle with figurines, lamps, or wall decor",
-      "Exact contents can be confirmed in person"
+      "Contents shown in photos"
     ],
     "quantity": 1
   },
@@ -1878,7 +1878,7 @@ const items = [
     ],
     "description": "Lighting group including floor/table lamp styles shown across the home. Available individually or as a bundle.",
     "notes": [
-      "Function should be confirmed at sale",
+      "Operation available at inspection",
       "Individual offers welcome",
       "Good add-on bundle"
     ],
@@ -1923,7 +1923,7 @@ const items = [
     "description": "Decorative upholstery remnant rolls with patterned and textured materials. Useful for accent cushions, small upholstery jobs, crafts, or booth resale.",
     "notes": [
       "Patterned and textured rolls visible",
-      "Buyer should confirm exact quantity and lengths",
+      "Roll quantity and lengths available at inspection",
       "Bundle with other material lots available"
     ]
   },
@@ -1992,7 +1992,7 @@ const items = [
     "notes": [
       "Dedicated sewing/upholstery spotlight item",
       "Several rolls and material types shown",
-      "Most appear heavy-duty; buyer should confirm exact yardage and backing",
+      "Heavy-duty material lot; yardage and backing available at inspection",
       "Bundle with Singer table and sewing supplies"
     ]
   },
@@ -2035,7 +2035,7 @@ const items = [
     "description": "Stacked upholstery and craft fabrics in multiple colors and textures. Good for chair recovering, pillows, samples, craft projects, and resale bundles.",
     "notes": [
       "Multiple colors and textures visible",
-      "Buyer should confirm lengths/yardage",
+      "Lengths and yardage available at inspection",
       "Good add-on for sewing machine buyers"
     ]
   },
@@ -2063,7 +2063,7 @@ const items = [
     "notes": [
       "Original box shown",
       "Good sewing setup item",
-      "Function should be confirmed in person"
+      "Condition and operation available at inspection"
     ]
   },
   {
@@ -2165,7 +2165,7 @@ const items = [
     "description": "Additional household ladders/step ladders visible in the garage grouping. Useful for utility, storage, and home projects.",
     "notes": [
       "Group pricing; individual offers considered",
-      "Exact ladder count should be confirmed in person",
+      "Ladder group shown in photos",
       "Bundle with Werner ladder available"
     ]
   },
@@ -2185,10 +2185,10 @@ const items = [
         "original": "IMG_0587"
       }
     ],
-    "description": "Big Red branded garage utility item. Likely useful for mechanic, workshop, or garage tasks depending on buyer needs.",
+    "description": "Big Red branded garage utility item. useful for mechanic, workshop, or garage tasks depending on buyer needs.",
     "notes": [
       "Big Red branding visible",
-      "Function/type should be confirmed in person",
+      "Type and operation available at inspection",
       "Priced conservatively for quick pickup"
     ]
   },
@@ -2211,7 +2211,7 @@ const items = [
     "description": "Chrome wire shelving panels or rack parts visible in garage storage. Practical utility item for shelving repair, garage organization, or parts reuse.",
     "notes": [
       "Garage utility item",
-      "Buyer should confirm exact parts and dimensions in person"
+      "Parts and dimensions available at inspection"
     ]
   },
   {
@@ -2234,7 +2234,7 @@ const items = [
     "notes": [
       "Low-cost utility lot",
       "Bundle with garage items",
-      "Exact contents confirmed in person"
+      "Contents shown in photos"
     ]
   },
   {
@@ -2289,7 +2289,7 @@ const items = [
     "description": "Remaining mixed garage/household overflow items not otherwise broken out. Includes small household utility pieces and miscellaneous items visible in the photos.",
     "notes": [
       "Use as a bundle/overflow listing",
-      "Individual contents should be confirmed in person",
+      "Individual contents shown in photos",
       "Good add-on for buyer taking multiple items"
     ]
   },
@@ -2313,7 +2313,7 @@ const items = [
     "notes": [
       "Many small drawers visible",
       "Useful for garage, craft room, or workshop",
-      "Contents not guaranteed unless confirmed"
+      "Contents available as shown"
     ]
   },
   {
@@ -2336,7 +2336,7 @@ const items = [
     "notes": [
       "Large Werner ladder visible",
       "Priced below typical new retail ladder cost",
-      "Buyer should confirm size/rating in person"
+      "Size and rating available at inspection"
     ]
   },
   {
